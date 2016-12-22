@@ -1,0 +1,15 @@
+Author: Matthew Holmes <matthew.holmes@entelect.co.za>
+Committer: Matthew Holmes <matthew.holmes@entelect.co.za>
+Message: Allow table value functions, scalar valued functions, stored procs and views to be dropped on QA
+Date and Time: Wednesday, Dec 21 2016 12:46:27
+
+Author: Team City <assembla@entelect.co.za>
+Committer: Team City <assembla@entelect.co.za>
+Message: Updating Assembly version
+Date and Time: Wednesday, Dec 21 2016 12:38:56
+
+Author: Matthew Holmes <matthew.holmes@entelect.co.za>
+Committer: Matthew Holmes <matthew.holmes@entelect.co.za>
+Message: Improve a comment
+Date and Time: Wednesday, Dec 21 2016 12:35:45
+

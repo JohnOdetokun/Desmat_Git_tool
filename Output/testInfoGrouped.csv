@@ -1,0 +1,631 @@
+Author, Committer, Message, DateTime
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2627 - Add filters to the Rebates Register screen to be able to show malformed data.,Tuesday; Dec 20 2016 17:41:11
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2627 - Update database project,Monday; Dec 19 2016 18:05:05
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2627 - Add filtering to the rebates register screen.,Monday; Dec 19 2016 17:48:31
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2620; #2622 - Change tipTip text. Change background color on all pages.,Monday; Dec 12 2016 10:00:45
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2610 - Refactor DashboardLayout and Layout.,Tuesday; Dec 06 2016 12:16:40
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2610 - Change styling on the dashboard; include a dashboard layout to remove unnecessary styles.,Tuesday; Dec 06 2016 11:37:32
+Bruce <Bruce.dejager@entelect.co.za>,Bruce <Bruce.dejager@entelect.co.za>,#2609 Added an additional check to the if statement to make sure there are items available and therefore data to export to the chart; if there is no data;  a no data message is exported into the excel sheet,Friday; Dec 02 2016 15:20:54
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2530 - Merge and remove generated settings files.,Wednesday; Nov 30 2016 15:39:54
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2530 - Add custom HtmlHelper for Filters Input Boxes. Refactor Rebates Register Filters.,Wednesday; Nov 30 2016 15:38:34
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2530 - Remove generated settings files.,Wednesday; Nov 30 2016 10:14:11
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2530 - Remove settings files from Desmat Projects.,Wednesday; Nov 30 2016 10:13:26
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2530 - Merge deletion of generated settings files.,Wednesday; Nov 30 2016 09:50:51
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2530 - Remove generated settings from solution.,Wednesday; Nov 30 2016 09:49:56
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2530 - Change publish script to deploy to current QA database.,Tuesday; Nov 29 2016 14:34:59
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2530 - Clean-up configurations for our environments. Change structure of database pre/post deployment scripts. Remove unused publish scripts.,Tuesday; Nov 29 2016 14:16:05
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2599 - Add description of logic into tipTip for export on the Rebates Register,Tuesday; Nov 29 2016 11:08:38
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2598 - Add 'No Declaration Found' instead of blank 'Rebate Item' in Rebates Register Excel Export.,Tuesday; Nov 29 2016 09:29:34
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2578; #2579 - Remove MRN Searchable string. Make change to not create blank MRN in unique boe table.,Thursday; Nov 24 2016 12:55:01
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2581 - Change regex button to 'Examples'. Add additional regex example for line containing and line not equal to.,Wednesday; Nov 23 2016 15:11:23
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2585 - Change date to local time on Rebate Register stored procedures.,Wednesday; Nov 23 2016 14:50:39
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2846 - Sync database project.,Wednesday; Nov 23 2016 13:40:53
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2584 - Change stored procedures in EDMX to use an integration status code.,Wednesday; Nov 23 2016 13:26:51
+Bruce <Bruce.dejager@entelect.co.za>,Bruce <Bruce.dejager@entelect.co.za>,#2561 Added a new function for The DocumentTypeService to get available Documents that includes System documents and I also included the where and order by clause in this function so I moved the order/Where from the controller to the service,Thursday; Nov 17 2016 14:07:08
+Bruce <Bruce.dejager@entelect.co.za>,Bruce <Bruce.dejager@entelect.co.za>,#2545 added new constant for date formats,Wednesday; Nov 16 2016 16:20:53
+Bruce <Bruce.dejager@entelect.co.za>,Bruce <Bruce.dejager@entelect.co.za>,#2545 refactored code in controller for excel exporter,Wednesday; Nov 16 2016 16:20:29
+Bruce <Bruce.dejager@entelect.co.za>,Bruce <Bruce.dejager@entelect.co.za>,#2545 added dynamic heading for ExcelExporter; also fixed search criteria issue,Wednesday; Nov 16 2016 15:09:38
+Bruce <Bruce.dejager@entelect.co.za>,Bruce <Bruce.dejager@entelect.co.za>,#2545 commented out if else section for heading in excel sheet,Tuesday; Nov 15 2016 10:16:34
+Bruce <Bruce.dejager@entelect.co.za>,Bruce <Bruce.dejager@entelect.co.za>,#2545 Added excel export functionality for Stores Expiries table,Monday; Nov 14 2016 15:31:10
+Bruce <Bruce.dejager@entelect.co.za>,Bruce <Bruce.dejager@entelect.co.za>,#2545 Made changes to selects in drop downs to make use of option.CountryId; changed successMessage to use TempData Success Message; Began work on StoresExpiries Excel export feature,Friday; Nov 11 2016 16:39:44
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2553 - Add data to Customs Declarations sheet on Rebate Register export.,Tuesday; Nov 15 2016 09:00:02
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2552 - Change date format on Excel Export.,Monday; Nov 14 2016 17:50:44
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2552 - Update export for display purposes.,Monday; Nov 14 2016 16:41:58
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2552 - Add additional column to export.,Monday; Nov 14 2016 13:03:20
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2552 - Disable feature toggle for Rebates Register export.,Monday; Nov 14 2016 10:44:13
+Bruce <Bruce.dejager@entelect.co.za>,Bruce <Bruce.dejager@entelect.co.za>,#2551 Removed GetLinkingPartial from PermitsCustomer Controller,Monday; Nov 14 2016 10:55:28
+Bruce <Bruce.dejager@entelect.co.za>,Bruce <Bruce.dejager@entelect.co.za>,#2551 Added Select2 Search functionality to drop down lists; added another drop down to the filter section.,Friday; Nov 11 2016 11:04:13
+Bruce <Bruce.dejager@entelect.co.za>,Bruce <Bruce.dejager@entelect.co.za>,#2551 implemented some code refactoring to the controller and views and fixed filter functionality; sorting capability and added excel exporting.,Thursday; Nov 10 2016 16:35:56
+Bruce <Bruce.dejager@entelect.co.za>,Bruce <Bruce.dejager@entelect.co.za>,#2551 worked on getting most of the functionality for the CRUD working from the index to the delete; Added additions to the EntityMaps for my AutoMapper; changed views to their proper models; added countries dependency and got drop down working; Added new partial for basic details and edited views with incorrect information,Wednesday; Nov 09 2016 15:58:48
+Bruce <Bruce.dejager@entelect.co.za>,Bruce <Bruce.dejager@entelect.co.za>,#2551 Working or CRUD for Permit Customers,Wednesday; Nov 09 2016 10:28:19
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #2549 Added updated permit extension fields,Tuesday; Nov 08 2016 13:32:30
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2488 - Update mining exceptions report.,Monday; Oct 31 2016 16:14:29
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2498 - Add clear to prevent floating issues on Edit Clearing Instructions page.,Tuesday; Oct 25 2016 12:11:55
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2439 - Add plant and store location number to rebates register details.,Tuesday; Oct 04 2016 10:54:07
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2434 - Remove mapping issues for RVSL and PROD. Clean up codebase.,Monday; Oct 03 2016 16:18:55
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2433 - Change container labels to instead be Tank. Prevent ambiguity.,Monday; Oct 03 2016 14:31:55
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2436 - Add prompt for Valid Product Type selection.,Monday; Oct 03 2016 12:41:25
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #2435 Added search filter for containers to search on error types,Thursday; Sep 29 2016 14:43:30
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2416 - Ensure correct reversal values are included in the VMP 260.01 report.,Wednesday; Sep 28 2016 10:46:03
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2406 - Add new fields to Turbomeca Sap Dto.,Friday; Sep 23 2016 07:01:30
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2381 - Code format fix.,Monday; Sep 19 2016 07:57:37
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2381 - Add additional examples for regex on Process Criteria in ICM.,Monday; Sep 19 2016 07:55:50
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2183 - Add reverse case if the cancellation exists and the file is being processed already.,Friday; Sep 16 2016 11:35:39
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2364 - Update namespaces of date range classes.,Friday; Sep 16 2016 09:16:25
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2364 - Add different defaults for DateRange picker.,Thursday; Sep 15 2016 18:43:52
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2379 - Add export for Purpose Codes over Time widget. Fix issue with chart data.,Thursday; Sep 15 2016 16:16:51
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2154 - Add persistence to images when saving processes from ICM.,Tuesday; Sep 13 2016 11:25:57
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2293 - Remove value grouping.,Wednesday; Aug 24 2016 10:39:19
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2293 - Make changes based on feedback.,Wednesday; Aug 24 2016 10:11:43
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2293 - Clean up code.,Wednesday; Aug 24 2016 08:34:58
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2293 - Fix data aggregation issue.,Wednesday; Aug 24 2016 08:07:29
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2293 - Add loading text for aggregate table.,Tuesday; Aug 23 2016 15:11:05
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2293 - Continue working on the chart.,Tuesday; Aug 23 2016 15:06:15
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2293 - Add google charts library.,Tuesday; Aug 23 2016 08:57:55
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2293 - Merge to UAT.,Tuesday; Aug 23 2016 07:34:09
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2293 - Create db changes.,Tuesday; Aug 23 2016 07:23:50
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2293 - Initial work on migrating new widgets to Core Desmat.,Monday; Aug 22 2016 15:09:21
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2292 - Fix issue with Process Controls throwing exceptions.,Monday; Aug 22 2016 09:16:09
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2286 - Allow for meter certificates to be linked to meters.,Thursday; Aug 18 2016 14:44:59
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2286 - Continue working on Meter Certificate upload.,Thursday; Aug 18 2016 07:08:26
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2288 - Fix data that was not correct on Tharisa.,Wednesday; Aug 17 2016 15:32:45
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2289 - Add Post Deployment script to update the WasInException fields of staging data exceptions.,Wednesday; Aug 17 2016 07:32:32
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2289 - Add comments to report for TankTransaction,Tuesday; Aug 16 2016 17:36:42
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2289 - Add ability to process exceptions correctly with WasInException flags. TankLogbook,Tuesday; Aug 16 2016 16:02:12
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2289 - Add WasInException flag to tank transactions.,Tuesday; Aug 16 2016 15:49:49
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2289 - Add ability to add comments to TankTransactionStaging entries.,Tuesday; Aug 16 2016 15:41:06
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2289 - Add table for comments to staging logbook fillings.,Tuesday; Aug 16 2016 15:01:36
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2289 - Add filtering for Resolved Exceptions.,Tuesday; Aug 16 2016 14:43:41
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2289 - Add WasInException flag to exceptions table.,Tuesday; Aug 16 2016 12:24:18
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2266 - Sync the database.,Tuesday; Aug 16 2016 08:06:24
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2266 - Add functionality to insert order index for Controls.,Tuesday; Aug 16 2016 07:55:23
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2266 - Update edmx with order index.,Monday; Aug 15 2016 14:44:14
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2169 - Complete Illovo to CF recon report.,Monday; Aug 15 2016 11:20:04
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2169 - Create initial report for data recon between CF and TQ,Friday; Aug 12 2016 14:52:53
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2262 - Add minimum widths to columns on Exception Resolution screen. Resize automatically when editable fields are clicked. Float pencils to right.,Thursday; Aug 11 2016 16:31:35
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2263 - Increase size of modal. Test to determine that the user who entered the modal is visible.,Thursday; Aug 11 2016 15:57:20
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2264 - Rephrase wording of exceptions related to opening/closing and sheet number on fuel fillings.,Thursday; Aug 11 2016 15:37:30
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2213 - Make changes to Fills by Controller report,Thursday; Aug 11 2016 15:28:57
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2242 - Add Diesel consumption efficiency report to Monthly Efficiency report.,Wednesday; Aug 10 2016 14:56:13
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2247 - Add spinner to role assignment for users. Select2 on user select.,Wednesday; Aug 10 2016 07:42:06
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2241 - Alter efficiency report.,Friday; Aug 05 2016 14:05:14
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2248 - Change widget to group on Contract; then Resource.,Friday; Aug 05 2016 07:40:10
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2235 - Add to insert scripts.,Thursday; Aug 04 2016 09:27:54
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2235 - Finalize SARS audit report.,Thursday; Aug 04 2016 09:26:01
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2235 - Initial creation of Mining SARS Audit report.,Tuesday; Aug 02 2016 15:46:06
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2254 - Remove old linked orders when editing.,Tuesday; Aug 02 2016 13:57:11
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2254 - Add displays for new fields. Add search criteria.,Tuesday; Aug 02 2016 10:06:47
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2254 - Sync db project.,Tuesday; Aug 02 2016 06:53:45
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2252 - Add Supplier Reference number to Deliveries.,Monday; Aug 01 2016 14:41:09
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2253 - Update Levy Rates to allow for Utc adjusted dates.,Monday; Aug 01 2016 10:53:40
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2224 - Add check to display 0 if value is null on report.,Friday; Jul 29 2016 17:11:46
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2224 - Fix tests.,Friday; Jul 29 2016 15:17:35
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2224 - Complete Mining Exceptions report.,Friday; Jul 29 2016 14:53:53
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2224 - Add report for Mining Exceptions.,Friday; Jul 29 2016 09:28:12
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2224 - Add exception table for staging logbook filling data.,Thursday; Jul 28 2016 08:43:52
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2203 - Ensure that Date filters are correct on all Tharisa reports.,Wednesday; Jul 27 2016 10:43:05
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2230 - Fix image not rendering correctly on first page of SOP.,Wednesday; Jul 27 2016 09:30:27
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2219 - Fix date display issue.,Wednesday; Jul 27 2016 07:57:11
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2219 - Finalize report.,Wednesday; Jul 27 2016 07:52:12
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2219 - Sync database project.,Tuesday; Jul 26 2016 15:28:30
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2220 - Make changes based on feedback. Only valid staging logbook entries. Resize column widths in report; and right align numbers.,Tuesday; Jul 26 2016 09:03:42
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2220 - Update report.,Tuesday; Jul 26 2016 08:00:13
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2220 - Add report for Contractor Fillings.,Tuesday; Jul 26 2016 06:51:27
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2198 - Update Delivery Control Schedule.,Monday; Jul 25 2016 09:55:42
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2226; 2227 - Alter reports to use core.GetApplicableLevyRates.,Friday; Jul 22 2016 14:14:58
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2223 - Add validation to Product and Meter in create.,Friday; Jul 22 2016 07:48:54
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2223 - Add unit tests for validation functionality.,Thursday; Jul 21 2016 15:59:44
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2223 - Resync database.,Thursday; Jul 21 2016 13:45:11
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2202 - Update Mining Logbook updates.,Thursday; Jul 21 2016 09:49:43
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2196 - Convert to LAS Transaction date.,Tuesday; Jul 19 2016 06:11:22
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2196 - Update SARS Elligibility report to include Fuel and RAF Levies.,Monday; Jul 18 2016 10:20:09
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2194 - Add additional Levy Rate calculations to SARS eligibility report.,Monday; Jul 18 2016 16:11:56
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2178 - Update db.,Friday; Jul 15 2016 12:26:38
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2178 - Add additional filters for Warehouse type to and from.,Friday; Jul 15 2016 12:18:28
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2178 - Finalize document upload.,Friday; Jul 15 2016 12:10:27
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2178 - Add modal to upload documents to Sales Delivery Transactions.,Friday; Jul 15 2016 09:16:40
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2178 - EDMX and controller for DA33AA document upload.,Thursday; Jul 14 2016 14:01:18
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2181 - Add duty calculation section to Excise Account report.,Wednesday; Jul 13 2016 17:14:23
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2181 - Initial work on SSRS report for duty calculation section.,Wednesday; Jul 13 2016 12:05:12
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #2179 re #2180 Updated filtering conditions for VMP Schedule 260.04 A,Wednesday; Jul 13 2016 07:58:22
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2177 - Process revise without start node.,Tuesday; Jul 12 2016 11:06:59
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2170; #2171 - Add spinners to Criteria and Calculations. Drilldown to draft processes.,Tuesday; Jul 12 2016 08:19:47
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2176 - Fix correct splitting of images on SOP when there arae long process names.,Monday; Jul 11 2016 14:55:57
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2175 - Adjust calculation for AAL on Clearing Instructions.,Monday; Jul 11 2016 12:12:31
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2120 - Cleanup processes controller.,Monday; Jul 11 2016 11:10:28
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2152 - Fix issue where incorrect message on Tharisa logbook for engine hours.,Thursday; Jul 07 2016 14:00:29
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2144; 2135 - Increase size of images rendered on SOP. Add page break between supporting document tables.,Thursday; Jul 07 2016 11:59:50
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2143 - Move quick search to seperate widget.,Thursday; Jul 07 2016 10:14:00
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2126 - Change Update Process Instance Job to improve performance.,Wednesday; Jul 06 2016 13:24:00
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2126 - Include indexes for table. Rewrite procedure to improve performance.,Tuesday; Jul 05 2016 14:52:54
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2128 - Refactor controller action; add link to latest version.,Tuesday; Jul 05 2016 08:02:31
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2128 - Process export image improvements.,Tuesday; Jul 05 2016 07:43:30
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2116 - Remove Department and Division references. Add update script for db.,Monday; Jul 04 2016 11:32:23
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2118 - Disable compression and conversion delay in attempt to improve speed on SOP Render.,Monday; Jul 04 2016 07:42:08
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2123 - Add documentation for AjaxPagination.,Friday; Jul 01 2016 14:15:53
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2123 - Add library for AjaxPagination.,Friday; Jul 01 2016 13:47:19
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2123 - Improvements to spinners on widgets.,Friday; Jul 01 2016 08:35:05
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2064 - Fix widget.,Thursday; Jun 30 2016 20:19:14
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2064 - Filtering widget. Indices on tables.,Wednesday; Jun 29 2016 16:08:24
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2064 - Add Processes Requiring Attention Widget.,Wednesday; Jun 29 2016 09:18:31
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2103 - Decrease maximum size of large modal to have scroll bars appear earlier on small screens.,Wednesday; Jun 29 2016 06:33:08
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2113 - Performance improvements to ICM Save of Process.,Monday; Jun 27 2016 14:48:59
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2109 - Render Controls on the SOP. Render Commodities on the SOP.,Friday; Jun 24 2016 11:58:15
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2018 - Add ability to capture controls on processes.,Friday; Jun 24 2016 09:10:42
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2101 - Complete Tagging of Processes.,Thursday; Jun 23 2016 16:49:56
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2101 - Change Processes to allow tags to be added to a process.,Thursday; Jun 23 2016 14:00:54
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2102 - Performance improvements to ICM.,Wednesday; Jun 22 2016 09:10:02
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2041 - Change buttons on Product types. Include AJAX pagination.,Tuesday; Jun 21 2016 15:18:02
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2031 - Dynamically size header. Remove header and footer from every page containing an image of a process.,Tuesday; Jun 21 2016 09:12:29
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2031 - Styling changes on SOP.,Monday; Jun 20 2016 10:05:46
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2072 - General SOP styling improvements.,Tuesday; Jun 21 2016 06:37:58
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2076 - Add filters to Applicant Reference number.,Wednesday; Jun 15 2016 10:58:18
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2076 - Finish making changes to Turbomeca requirements.,Wednesday; Jun 15 2016 10:45:45
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2028;2029 - Add purpose and scope to processes.,Monday; Jun 13 2016 13:19:21
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2040 - Display Critical Factors on the SOP.,Friday; Jun 10 2016 15:58:42
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2040 - Allow for capture of critical factors on a process.,Friday; Jun 10 2016 11:44:35
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2040 - Add critical factors.,Thursday; Jun 09 2016 11:48:46
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2059 - Add Internal Description and Excise Rule to Processes.,Wednesday; Jun 08 2016 11:47:28
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2054 - Update db project.,Wednesday; Jun 08 2016 10:58:49
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2054 - Add update scripts to insert Action Descriptions.,Wednesday; Jun 08 2016 10:41:22
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2035 - Add Glossary Terms to processes from within ICM.,Tuesday; Jun 07 2016 16:09:32
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2035 - Add modal for glossary terms added to ICM.,Tuesday; Jun 07 2016 15:32:00
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2035 - Resolve compilation error.,Tuesday; Jun 07 2016 14:14:30
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2035 - Fix dto for ICM Glossary Terms.,Tuesday; Jun 07 2016 14:08:42
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2035 - Change database structure.,Tuesday; Jun 07 2016 13:27:57
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2035 - Create DTO.,Tuesday; Jun 07 2016 12:33:46
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2017 - Fix edmx issue.,Tuesday; Jun 07 2016 11:27:46
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2017 - Merge to dev.,Tuesday; Jun 07 2016 10:03:17
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2017 - Merge from UAT to QA.,Tuesday; Jun 07 2016 09:27:46
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2017 - Add functionality to transform a clearing instruction to multiple ex-warehouses.,Tuesday; Jun 07 2016 09:05:33
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2017 - Change Transform resolution view to contain details for all Ex-Warehouses to be created.,Friday; Jun 03 2016 14:50:22
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2017; 1934 - Initial work on Transforming Clearing Instructions. Continued Process Location linking.,Tuesday; May 31 2016 12:21:48
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2017 - Initial transform work for Clearing Instructions.,Tuesday; May 31 2016 10:35:35
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2067 - Add tabs to View screen.,Monday; Jun 06 2016 06:47:51
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2067 - Change representation of Linked Product Types and Commodities. Add Description to Versioned Document Sections.,Friday; Jun 03 2016 09:03:37
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2019 - Ensure publication of processes functions.,Thursday; Jun 02 2016 18:45:08
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2019 - Continue adding legislation.,Thursday; Jun 02 2016 18:15:19
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2019 - Add ability to link sections and versioned documents to processes.,Thursday; Jun 02 2016 17:33:59
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2019 - Add ability to include Commodities as well as Products on a Process.,Thursday; Jun 02 2016 12:22:22
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1996 - Add description field to Versioned Document Sections.,Thursday; Jun 02 2016 10:13:28
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1996 - Add Normative References and Legislation to SOP.,Thursday; Jun 02 2016 08:52:39
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1934 - Add Location linking to processes.,Tuesday; May 31 2016 15:05:45
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2016 - Fix predeployment.,Monday; May 30 2016 15:25:24
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2016 - Add ordering on Combo fields. Show numbering on rows for product types. Align fields. Fix predeployment.,Monday; May 30 2016 15:05:30
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2016 - Add predeployment scripts.,Monday; May 30 2016 13:17:02
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2016 - Remove validation attribute and unused partial.,Monday; May 30 2016 12:38:49
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2016 - Toggle validation depending on button click.,Monday; May 30 2016 12:23:19
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2016 - Remove fields from Clearing Instructions.,Monday; May 30 2016 07:47:18
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2016 - Sync database project.,Monday; May 30 2016 07:30:22
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2016; 2017; 2013 - Remove Duty Payable. Include product types and country. Multiple product types.,Friday; May 27 2016 16:00:01
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2014 - Permanent fix for PDF rendering on Clearing Instructions.,Friday; May 27 2016 08:14:55
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2014 - Fix Clearing Instruction PDFs not rendering Grid Lines.,Friday; May 27 2016 06:17:07
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2012 - Ensure that company fields are updated on QA.,Thursday; May 26 2016 14:28:56
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2015 - Add Clearing Agent Contact Name and Number to Clearing Instructions.,Thursday; May 26 2016 10:51:20
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2005 - Add Clearing Agent information to Create/Edit Clearing Instruction.,Thursday; May 26 2016 10:08:03
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2008 - Add changed files.,Wednesday; May 25 2016 15:47:22
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2008 - Add functionality to Acknowledge Date exceptions on Fuel Filling Exceptions screen.,Wednesday; May 25 2016 14:48:33
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2007 - Add script to set default values for Export Permits.,Tuesday; May 24 2016 16:02:29
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2007; #2006 - Scripts to close all Import and Export permits that have a DCAC. Include list of all Export permits that are approaching their Re-Export dates in email.,Tuesday; May 24 2016 14:54:21
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2007 - Add Update script to change all Import Permit Statuses to 4 if the Date the Stamped Copy Submitted to DCAC is not null.,Tuesday; May 24 2016 14:00:38
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2006 - Change email template for Export Permit Re-Export notification emails.,Tuesday; May 24 2016 14:57:43
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2004; #2005; #2006 - Change Permit Number field location. Move applicants reference number. Include 6 Month Re-Export Date for Export Permits. Send notifications for this date.,Tuesday; May 24 2016 12:28:26
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1681 - Add styling for Distell.,Monday; May 23 2016 14:39:22
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1681 - Sync database project.,Monday; May 23 2016 14:28:26
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1681 - Initial filtering for processes. Fix Distell styling.,Monday; May 23 2016 14:18:36
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1983 - Create styling for Distell.,Monday; May 23 2016 08:28:55
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1680 - Add Linking from Processes to Product Types. Add authentication requirements to actions involving Linking Processes to Product Types; Legislation; and Users.,Wednesday; May 18 2016 08:31:42
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1608 - Sync database.,Wednesday; May 18 2016 06:33:18
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1608 - Add Download option for Legislation on Processes.,Tuesday; May 17 2016 15:33:46
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1608 - Add linking to Legislation/Versioned Documents from Processes.,Tuesday; May 17 2016 14:29:21
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1951 - Truncate step names and requirements on Process Step lists.,Tuesday; May 17 2016 08:33:35
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1949 - Add Selenium Regression tests from POC into project.,Friday; May 13 2016 13:25:37
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1917 - Change database connection string back to Dev.,Friday; May 13 2016 07:53:58
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1917; #1943 - Add configuration item to only link BOEs to process instances on Turbomeca. Fix bug where document action log is cleared without processing entries.,Thursday; May 12 2016 09:19:47
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1917 - Fix edmx.,Wednesday; May 11 2016 07:56:07
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1917 - Clean up logic for compliance in the Rebates Register.,Wednesday; May 11 2016 07:32:55
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1917 - Add table structures for BOE Mrn Groupings and Process Instance Linking. Check compliance of both import and export BOEs. Add Export Process Whitelist.,Wednesday; May 11 2016 07:27:27
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1935 - Add permissions onto ICM to disable editing if no permissions exist.,Thursday; May 12 2016 11:41:05
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1935 - Remove permissions from Approval. Add insert script.,Thursday; May 12 2016 11:10:23
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1935 - Add edit process permissions to edit process view.,Thursday; May 12 2016 10:46:28
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1929 - Clean up filtering. Make non-compliance be either import or export not compliant.,Wednesday; May 11 2016 16:48:46
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1929 - Add Linq queries to filter the Rebates Register based on compliance.,Wednesday; May 11 2016 16:12:50
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1929 - Fix compliant vs. non-compliant filtering.,Wednesday; May 11 2016 10:08:29
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1916 - Add permissions for warehousing. Add permissions into insert scripts. Rework permissions screen.,Friday; May 06 2016 11:22:51
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1915 - Fix issue where Process Code of NULL is displayed on Process Assignment Exception Resolution.,Friday; May 06 2016 08:18:36
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1900 - Order by MRN then Import BOE Number.,Wednesday; May 04 2016 15:19:12
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1900 - Add ordering for Rebates Register. Order by MRNSearchableString,Wednesday; May 04 2016 15:02:20
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1899 - Make visual improvements to Rebates Register.,Wednesday; May 04 2016 14:21:33
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1898 - Include Balance on Hand calculation on Rebates Register.,Wednesday; May 04 2016 13:36:42
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1892 - Change BaseUrl to point to demo.dttdesmat.com,Wednesday; May 04 2016 13:18:55
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1895 - Fix path to Michelin logo.,Wednesday; May 04 2016 11:38:49
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1895 - Revert connection string for database. Add theme into theme selection.,Wednesday; May 04 2016 11:20:46
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1895 - Attempted fix of Mission Control.,Wednesday; May 04 2016 11:06:38
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1895 - Fix Ex-Wareohuse document type,Wednesday; May 04 2016 10:27:40
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1895 - Add Michelin logo. Convert all settings to use DiageoStaging settings.,Wednesday; May 04 2016 09:18:24
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1895 - Add Desmat Demo configuration to build script.,Wednesday; May 04 2016 08:38:06
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1895 - Add configuration items for Desmat Demo environment.,Wednesday; May 04 2016 08:26:46
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1872 - Ensure spinners function correctly.,Tuesday; May 03 2016 14:06:17
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1872 - Add server-side validation to remove attachment from document.,Tuesday; May 03 2016 13:36:40
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1872 - Add spinners on Save and Delete. Rebind AjaxFileUploader.,Tuesday; May 03 2016 13:34:08
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1875 - Remove unused exception class.,Tuesday; May 03 2016 11:55:19
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1875 - Add CoreFreightImportType to all Imports. Run update script on database.,Tuesday; May 03 2016 11:42:41
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1890 - Allow historical extension of contracts to a date before the current date.,Tuesday; May 03 2016 08:40:36
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1890 - Change label for start and end date. Fix ToLocalTime on permits and contracts.,Tuesday; May 03 2016 08:35:58
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1890 - Add ability to extend Contracts. Modal to allow selection of new date.,Tuesday; May 03 2016 08:04:01
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1829 - Fix deployment script. Archive Regex update script.,Friday; Apr 29 2016 13:31:03
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1849 - General fixes. Order by date descending on Missing Data Summary.,Friday; Apr 29 2016 13:22:23
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1880 - Include remarks on closure of Import and Export permits. Add remarks to extension of Permits. Log status changes.,Friday; Apr 29 2016 10:03:51
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1880 - Correct logic regarding generation of applicant reference numbers.,Friday; Apr 29 2016 07:33:49
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1880 - Add validation of input models. Error checking for Applicant Reference Numbers. Autogenerate when entering create screen.,Friday; Apr 29 2016 07:04:51
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1830 - Fix issues with retrieving existing entries. Fix javascript.,Monday; Apr 25 2016 19:25:54
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1830 - Ensure that only 1 entry can be created for Sap Product Validation.,Monday; Apr 25 2016 19:09:44
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1830 - Add Job; Service; and Controller to process SAP Entries for Products.,Monday; Apr 25 2016 17:49:15
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1859 - Enhancements to Clearing Instructions.,Monday; Apr 25 2016 11:06:49
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1808 - Examine changes to searching for transactions with more detailed search criteria.,Friday; Apr 22 2016 09:15:06
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1808 - Move Json Dto. Fix UTC datetime.,Thursday; Apr 21 2016 22:11:58
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1808 - Fix small issues with Vouchers of Correction.,Thursday; Apr 21 2016 21:30:43
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1808 - Improve filtering. Display Date correctly.,Thursday; Apr 21 2016 20:17:01
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1808 - Implement Edit and Delete functionality. Styling of select2 for transactions.,Thursday; Apr 21 2016 19:42:39
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1808 - Change display of Created By users.,Thursday; Apr 21 2016 09:02:32
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1808 - Rename Tranquillity classes. Create summary list page. Add item to navbar.,Thursday; Apr 21 2016 08:53:08
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1808 - Edmx change to correct spelling of Tranquillity.,Thursday; Apr 21 2016 08:27:08
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1808 - Creation of TranquilityVoucherOfCorrections. Add to edmx.,Thursday; Apr 21 2016 07:33:03
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1808 - Add VouchersOfCorrection table.,Wednesday; Apr 20 2016 15:55:16
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1852 - Remove Display from Input Model.,Wednesday; Apr 20 2016 16:31:00
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1816 - Add correct totals for dashboard widget for running totals.,Monday; Apr 18 2016 13:21:18
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1816 - Add insert for widget type in deployment script.,Monday; Apr 18 2016 11:53:18
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1816 - Display table of Container stores.,Monday; Apr 18 2016 09:10:43
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1816 - Add Widget for the Running Total of all Containers per Store.,Monday; Apr 18 2016 08:11:28
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1801 - Fix worker for Excise Account calculations. Add controls to MissionControl to trigger the service.,Monday; Apr 11 2016 16:20:48
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1800 - Fix ordering on Expired Export Permits widget.,Monday; Apr 11 2016 08:53:20
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1796 - Add ellipsis to long running document data. Allow clicks to expand the text.,Thursday; Apr 07 2016 15:38:11
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1796 - Increase size of document modals.,Thursday; Apr 07 2016 13:55:04
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1780 - Add additional detail column for Staging Data File Log Overview.,Wednesday; Apr 06 2016 12:22:15
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1777 - Include database project changes.,Tuesday; Apr 05 2016 14:52:07
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1777 - Remove third party tables from insert scripts.,Tuesday; Apr 05 2016 14:42:39
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1777 - Remove third parties from project.,Tuesday; Apr 05 2016 11:33:49
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1762 - Merge from branch to dev.,Monday; Apr 04 2016 15:39:22
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1762 - Add new permissions to exceptions for claims and export entries. Change to using ViewBag for permissions.,Monday; Apr 04 2016 15:31:21
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1672 - Continue adding permissions to exception screens.,Monday; Apr 04 2016 14:36:35
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1672 - Refactor - rename field in ProcessInstanceTabsDisplay.,Thursday; Mar 31 2016 08:45:25
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1672 - Include DynamicAccessService modifications.,Thursday; Mar 31 2016 08:42:23
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1672 - Include permission in Insert script. Add permissions to all summary lists.,Thursday; Mar 31 2016 08:38:23
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1672 - Change navigation permission.,Wednesday; Mar 30 2016 13:18:04
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1672 - Add permissions to Controllers.,Wednesday; Mar 30 2016 12:31:52
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1672 - Change dynamic permission attribute to accept multiple required permissions.,Wednesday; Mar 30 2016 11:16:49
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1692 - Include ability to upload documents to import permits.,Friday; Apr 01 2016 11:32:21
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1772 - Fix edmx.,Thursday; Mar 31 2016 15:14:04
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1772 - Merge from dev.,Thursday; Mar 31 2016 14:55:44
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1773 - Finalize filtering on Customer Lookup Record CRUD.,Thursday; Mar 31 2016 14:46:04
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1773 - Initial filtering and editing of customer lookup records.,Thursday; Mar 31 2016 14:12:25
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1773 - Add validation to Create for Customer Lookup Records.,Thursday; Mar 31 2016 13:17:07
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1773 - Alter input model for Customer Lookup Records.,Thursday; Mar 31 2016 11:20:18
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1773 - Create controller and initial views for Customer Lookup Records.,Thursday; Mar 31 2016 10:57:34
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1747 - Add pre-deployment script to project.,Tuesday; Mar 29 2016 15:38:17
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1747 - Add insert; pre-deployment and post-deployment scripts to enable correct reports on Illovo.,Tuesday; Mar 29 2016 15:27:41
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1746 - Change data source to CoreFreight Declarations from BoeDetails in SQL Views.,Tuesday; Mar 29 2016 12:06:06
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1637 - Turbomeca - Fix date display on Rebates Register and Rebates Register Modal.,Tuesday; Mar 29 2016 11:02:35
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1707 - Add spaces between file type names in Tranquility notification emails.,Tuesday; Mar 29 2016 10:38:33
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1512 - Remove pre-deployment script.,Tuesday; Mar 29 2016 10:15:10
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1512 - Add description field to Engine creation and summary list.,Tuesday; Mar 29 2016 10:01:11
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1634 - Remove template comments.,Tuesday; Mar 29 2016 07:03:41
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1634 - Fix predeployment script.,Thursday; Mar 24 2016 15:08:26
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1634 - Alter column data type in predeployment script.,Thursday; Mar 24 2016 14:59:03
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1634 - Fix validation on Document capture for dates. Add validation to server side. #1743 - Fix adornment not visible on IE.,Thursday; Mar 24 2016 14:43:19
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#1727 - Add Stock Module and Navigation Links.,Friday; Mar 11 2016 11:48:18
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1588 Updated ICM top level breadcrumb to link to process edit instead of process list,Friday; Feb 12 2016 09:15:05
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1569 Added configurable date filter to limit processing of bondsheets; sars entries; turbomeca records; befi/eunifs and dsramdet files,Friday; Feb 12 2016 08:54:36
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1572 moved link on missing data to BOE date as data is always populated there - therefore each item is linkable,Friday; Feb 12 2016 08:14:21
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1576 checkboxes for bundled documents on process instances are disabled when no physical document has been uploaded against them,Friday; Feb 12 2016 08:02:06
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1584 added root document type filter to document change exceptions. converted dropdown filters to select2,Friday; Feb 12 2016 07:47:05
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1272 Fixed process view names + additional columns removed,Wednesday; Oct 14 2015 12:43:24
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1253 Added basic view for sap acquittal information with initial filtering + new proc,Friday; Oct 09 2015 15:33:48
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1259 Added configuration fo rftp file upload mappings,Friday; Oct 09 2015 08:52:01
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1211 Added acknowledge field to process instance validation exceptions. Added method to acknowledge any exceptions which will flag a gren warning on the PI screen. These exceptions can still be further resolved,Wednesday; Sep 23 2015 08:18:19
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1173 Added document upload and removal from all documents (attachments),Friday; Sep 11 2015 15:06:29
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1183 Added FK link between commodities and units of measure,Thursday; Sep 10 2015 10:18:54
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1166 Added selection of type to commodities. Added updated views + view model initialisation to fuel products. Renamed controllers for consistency,Tuesday; Sep 08 2015 13:17:36
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1175 Added updated email template parsing to properly replace process name in the subject of the email,Tuesday; Sep 08 2015 08:23:45
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1175 Added is active column with non-nullable constraint + predeployment scripts to allow for comments to be marked as inactive when nthey should no longe rbe considered for a process,Tuesday; Sep 08 2015 07:58:05
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1227 removed the manual assignment link used for testing of process assignment exception resolution form the process instance summary list. this only shows on the assignment ewxception page now,Thursday; Sep 03 2015 08:21:35
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1127 Added updated redirects to allow for proper document approval and declining via process assignment exception resolution screen by keeping the current process id and process instance id in the redirects url,Thursday; Sep 03 2015 08:19:37
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1127 Added fix for document field editing+  visual updates.,Thursday; Sep 03 2015 07:53:04
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1127 Added logic to show matching information for any process instance,Monday; Aug 31 2015 15:38:22
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1130 Added orderby for payment delivery report to swhow items in a more logical order,Friday; Aug 28 2015 12:04:49
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1169 - Added is mobile asset type to db; model and crud,Friday; Aug 28 2015 11:49:53
+meghan.vrooyen <meghan.vrooyen@entelect.co.za>,meghan.vrooyen <meghan.vrooyen@entelect.co.za>,re #1157 Updated search criteria to filter on sars codes,Thursday; Aug 27 2015 13:19:56
+meghan.vrooyen <meghan.vrooyen@entelect.co.za>,meghan.vrooyen <meghan.vrooyen@entelect.co.za>,re #1129 validation labels are incorrect on create; fixed some of them,Tuesday; Aug 25 2015 13:54:45
+meghan.vrooyen <meghan.vrooyen@entelect.co.za>,meghan.vrooyen <meghan.vrooyen@entelect.co.za>,re #1131 moved add button to the side; when tabbed a new row is created,Tuesday; Aug 25 2015 07:31:22
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1090 initial tank capacity widget,Tuesday; Aug 18 2015 15:34:15
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1091 Added calculation view and aggregators for tanks,Tuesday; Aug 18 2015 13:40:41
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1118 added tank level measurements + types crud,Monday; Aug 17 2015 15:33:45
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1065 Added widget data hooks for exceptions,Monday; Aug 03 2015 10:19:58
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1065 Added widget for fuel log exception rate display and total outstanding count,Monday; Aug 03 2015 10:13:49
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1071 updated db projects + proc for logbook. Added update d logbook report,Thursday; Jul 30 2015 10:29:36
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1026 Removed buttons for controls on system documents (e.g. publish; copy,Thursday; Jul 23 2015 08:46:15
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1026 added system flag for doc types. added mark thomas as scripted insert user,Wednesday; Jul 22 2015 12:39:53
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1026 Added base models for loss entries,Tuesday; Jul 21 2015 15:47:40
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1022 Added acitivty allocation resolve + general resolve methods on staginglogbook processor. Added log creation tests,Tuesday; Jul 21 2015 10:51:41
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1022 Added basic repos for mining tests,Monday; Jul 20 2015 13:27:12
+darren.young <darren.young@entelect.co.za>,darren.young <darren.young@entelect.co.za>,re #1022 Added base repo file for mining,Monday; Jul 20 2015 11:47:08
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #1022 Added staging logbook filling validation and processing service + tests.,Friday; Jul 17 2015 15:20:48
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #973 Added updated reports for payments and deliveries with column grouping and additional filters,Friday; Jul 17 2015 10:20:49
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #973 Added updated path for rs.exe to allow for dev publishing of reports from teamcity,Thursday; Jul 16 2015 19:25:13
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #981 Finalised Validation Saving,Monday; Jul 06 2015 11:44:33
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #968 Initial Modal Show for Validations,Friday; Jul 03 2015 15:56:43
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #968 Started ICM Validation UI refactor,Friday; Jul 03 2015 14:29:22
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #968 Updated Changes to Matching Validator,Friday; Jul 03 2015 12:54:42
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #968 modified validations,Friday; Jul 03 2015 10:37:45
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #666 fixed auditng report not showing corrrect column+  incorrect paging;,Friday; Jun 19 2015 15:52:58
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #925 Corrected error message display,Thursday; Jun 18 2015 11:49:47
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #925 Updated product type grouping tables + logic,Thursday; Jun 18 2015 11:45:51
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #879 Bug fixes on 3rd parties - Added corrcet movement status mappings; added third party value assignment to movements,Monday; Jun 08 2015 09:34:33
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #888 Added protection on process assignment,Thursday; Jun 04 2015 16:41:45
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #818 Added static inserts into the deployment,Tuesday; Jun 02 2015 10:32:24
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #818 Increased Matching Performance,Tuesday; Jun 02 2015 09:27:23
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #818 Added population of process assignment exceptions,Tuesday; Jun 02 2015 08:48:57
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #818 Added new exceptions table,Tuesday; Jun 02 2015 08:22:19
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #818 Fixed EF Issues with Ryan,Monday; Jun 01 2015 16:41:35
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #818 Optimizations,Monday; Jun 01 2015 12:28:32
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #818 Updated Document Type to Data Creation on Assignment,Monday; Jun 01 2015 10:46:41
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #818 Fixed document field value editing,Friday; May 29 2015 15:33:54
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #818 Changed Method Definitions,Friday; May 29 2015 13:05:27
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #818 Moved Process Instance Mapping to Process Instance Controller,Friday; May 29 2015 11:11:21
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #818 Added correct mapping to movement documents,Friday; May 29 2015 10:13:12
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #818 Updated DB project and other minor fixes,Thursday; May 28 2015 12:35:08
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #818 Document Type Creation and Synchronization,Thursday; May 28 2015 12:24:40
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #832 Added checks for module document fields not to be editable,Monday; Jun 01 2015 09:36:07
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #831 Added checks for module documents not to be editable,Monday; Jun 01 2015 09:21:25
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #868 added additional logging information to staging data exceptions,Monday; Jun 01 2015 08:31:03
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #856 re #854 Added db tables for pinned fields + updated movements summary list to use these fields,Thursday; May 28 2015 10:11:55
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #878 Added Passport Filtering for Transporters,Tuesday; May 26 2015 14:57:33
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #880 corrected filtering on units of measure related entities,Tuesday; May 26 2015 09:20:13
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #874 Added supplier managment to movement related entities,Tuesday; May 26 2015 09:04:56
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #746 Common document field exception view + resolve moethods,Monday; May 25 2015 15:13:59
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #774 Added document exception creation,Monday; May 25 2015 12:13:02
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #744 Fixed a bug where the root document type was ignored when checking which staging document types to exclude,Monday; May 25 2015 09:44:30
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #744 Update of Staging Data,Friday; May 22 2015 14:45:10
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #744 Added logic to create/update documents on staging processing,Friday; May 22 2015 14:15:44
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #744 Updated the mechanism for processing entries,Friday; May 22 2015 11:54:51
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #744 Added methods to assist with staging data -> documents,Friday; May 22 2015 08:29:03
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #769 Added copy methods for staging attributes on publish,Monday; May 25 2015 09:39:33
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #742 completed staging editable field toggle + update,Monday; May 25 2015 07:50:59
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #740 Added updated process isntance unique reference scren + resolve screen. Updated retry and ignore calls,Friday; May 22 2015 08:18:29
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #740 Added resolution and overall display screens,Thursday; May 21 2015 15:31:26
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #740 added split on mapping for dto from staging entry in db,Wednesday; May 20 2015 14:52:30
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #740 Added udpated solution files + corrected ajax calls,Wednesday; May 20 2015 07:57:58
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #740 Added retry and ignore buttons + ajax linking to form. Added updated dsramln reference,Wednesday; May 20 2015 07:53:23
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #793 Process Criteria Matching,Wednesday; May 20 2015 14:55:04
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #140 Can ignore or reprocess exceptions,Wednesday; May 20 2015 13:30:45
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #738 Finalised list for for exceptions,Wednesday; May 20 2015 06:54:39
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #738 added common service and domain interface for staging data entries with staging entry service call for entries in error,Monday; May 18 2015 15:09:50
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #849 Included Attribute Changes in Claims,Friday; May 15 2015 15:00:06
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #849 Added Option Groups To Attribute Root Selection,Friday; May 15 2015 13:44:16
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #849 Added Criteria Searching,Friday; May 15 2015 12:43:40
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #849 Added Pinned Document Fields,Thursday; May 14 2015 10:55:08
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #735 Added general integration status update method,Friday; May 15 2015 11:00:47
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #735 Added interface extension + enum types for integration exceptions. Added initial data scripts for integration statuses. Added common methods + implementation on befunifs for exception and pending items,Friday; May 15 2015 09:33:43
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #736 added service extensions for ccl services,Friday; May 15 2015 10:10:16
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #778 Miscellaneous Calculation Fixes,Tuesday; May 12 2015 09:02:03
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #778 Added copying of process calculations,Monday; May 11 2015 13:30:09
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #778 Modified Attributes to use roots,Monday; May 11 2015 10:07:23
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #778 Changed calculation check to ignore divide by 0,Thursday; May 07 2015 10:52:07
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #778 Reworked Step Analysis to Include Calculation Running,Thursday; May 07 2015 08:17:17
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #707 re #710 File exceptions sent on batch,Monday; May 11 2015 10:39:09
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #707 re #710 updated logger for sars,Monday; May 11 2015 08:05:28
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #707 re #711 refactored logging,Monday; May 11 2015 10:23:56
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #711 Added updated import interface structure + file deletion jobs and scdhedules for ccl,Friday; May 08 2015 08:22:47
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #711 updated procedure with better error handlnig and modified dssad501 structure,Thursday; May 07 2015 15:37:25
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #711 Added Updated logging and ftp strucutre,Wednesday; May 06 2015 14:56:17
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #709 Created stored procs to create pending transactions from SARS staging tables,Thursday; May 07 2015 14:14:20
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #692; #711 Added updated structure for FTP data imports with generic logging. Inherited this abstract class for CCL implementation of FTP importer.,Wednesday; May 06 2015 12:59:08
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #717 Added basic comms template for staging data exceptioncomms.,Tuesday; May 05 2015 12:53:25
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #718 Added staging data exception tables and type tables for grouping of exceptions. This will allow for exceptions to be batched and sent,Tuesday; May 05 2015 10:11:51
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #447 Added filters to unit prices page + fixed column formatting and ordering,Tuesday; May 05 2015 07:59:19
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #447 Made status on unit price non editable,Monday; May 04 2015 14:55:55
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #447 Removed default delete button,Monday; May 04 2015 14:54:35
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #447 Added approval and rejection basic flow for unit prices,Monday; May 04 2015 14:52:02
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #447 Added controller status logic + db updates for unit prices,Monday; May 04 2015 13:34:13
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #447 Updated controller and views for basic unit prices,Monday; May 04 2015 10:46:37
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #447 Added initial controller for unit prices + basic views and models,Monday; May 04 2015 10:19:37
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #689 Fixed some document upload issues,Thursday; Apr 30 2015 11:18:44
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #687 Spring Cleaning,Tuesday; Apr 28 2015 12:07:36
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #672 Re-worked domain terms to fit in with process instances,Friday; Apr 24 2015 14:27:26
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #685 Removed Linking Partial on Locations and Added Location Types to the Navbar,Friday; Apr 24 2015 10:15:02
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #451 Added in Process Step Exception States,Thursday; Apr 23 2015 16:05:47
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #682 ICM update colours; icons and legend,Thursday; Apr 23 2015 09:42:42
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #679 Fixed displaying Conditions in ICM Published Processes,Wednesday; Apr 22 2015 15:11:22
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #679 Added Requirement Information When Displaying Steps,Wednesday; Apr 22 2015 14:05:11
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #678 Additional Fix,Wednesday; Apr 22 2015 13:02:52
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #678 Changed How Properties are Copied From Process To Process,Wednesday; Apr 22 2015 12:40:37
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #671  Fixed Process Revising on Copying Events/Categories,Tuesday; Apr 21 2015 14:48:10
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #676 Fixed Claim Bulk Document Upload,Tuesday; Apr 21 2015 13:38:14
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #665 Removed Duplicate Document During Normal Upload,Tuesday; Apr 21 2015 10:37:29
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #664 Added the Timeline Job Back,Friday; Apr 17 2015 11:29:02
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #663 Fixed the Claims Submission Views,Friday; Apr 17 2015 10:44:36
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #663 Removed Editing of Claim Submission Statuses,Friday; Apr 17 2015 07:57:39
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #655 Added unique ref view to project. Removed slow check on movement edit if history exists. Reworded tiptip text on history button .Updated styling on button to be consistent with other input-appends,Friday; Apr 17 2015 08:08:27
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #660 Fixed minor bugs,Friday; Apr 17 2015 07:34:58
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #659 #662 Corrected locations crud and inco terms links to inco types,Friday; Apr 17 2015 07:30:57
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #656 Modified Process Saving,Thursday; Apr 16 2015 15:17:54
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #646 Removed Hidden Attributes from Permissions,Thursday; Apr 16 2015 12:19:09
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #648 Updated procs in db project for customs worksheet,Thursday; Apr 16 2015 07:26:11
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #636 Process User Responsibility Fixes,Wednesday; Apr 15 2015 14:56:33
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #636 Updated Process User Responsibility Adding and Removal,Wednesday; Apr 15 2015 13:07:07
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #636 Started Fixing Process User Responsibility Views,Monday; Apr 13 2015 12:40:40
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #651 Added pre deployment script to clear obsolete functions and stored procedures,Wednesday; Apr 15 2015 13:37:10
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #641 Added process assignment to claims. Added automatic assignment to claims where process wasnt specified. corrected process assignment on movements. Updated assignment interface + exposed manual assignment. Updated initial data + added enum for relationship types. Fixed bug on process steps wherfe no process assigned. Corrected levy type rule,Wednesday; Apr 15 2015 12:34:18
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #608 Moved TransportUploadTransitDocument to Export Entries Controller,Wednesday; Apr 15 2015 07:08:40
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #639 Added Process Category Filtering,Tuesday; Apr 14 2015 15:41:59
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #639 Sync-ed the database,Tuesday; Apr 14 2015 09:15:47
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #639 Added some process item category functionality,Tuesday; Apr 14 2015 09:09:55
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #647 Removed additional invalid reference,Tuesday; Apr 14 2015 14:08:47
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #647 Corrected levy types screens to remove levy rule references,Tuesday; Apr 14 2015 14:05:47
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #638 Show Me Added updated algorithm to gather all tree nodes and select published from that; accomodates for cases where draft doc is made; deleted and a new draft was created off the same source node,Tuesday; Apr 14 2015 08:49:32
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #634 added binding for revision date and process code to process revision,Monday; Apr 13 2015 12:37:33
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #633 Corrected document type grouping,Monday; Apr 13 2015 11:07:25
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #632 Disabled drag and drop for file uploads,Monday; Apr 13 2015 10:49:45
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #617 Removed Unnecessary Adornments,Monday; Apr 13 2015 09:45:35
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #617 Changed the Adornments available on step type nodes,Monday; Apr 13 2015 08:48:08
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #617 Removed Exceptions,Friday; Apr 10 2015 15:09:46
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #617  Changed the Ids to Classes for accessory-templates,Friday; Apr 10 2015 14:00:06
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #617 Fixed Risks and Warnings,Friday; Apr 10 2015 07:21:28
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #617 Fixed up Event Context Menu,Wednesday; Apr 08 2015 11:20:30
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #629 Made ICM document properties editable on draft,Monday; Apr 13 2015 08:16:01
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #625 updated layering,Friday; Apr 10 2015 15:09:46
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #625 Corrected and re-added wizard toggle,Thursday; Apr 09 2015 12:29:29
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #565 removed event binding to diagram add-node,Friday; Apr 10 2015 09:31:38
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #565 removed old references to trigger on external diagram add to main process diag (from old wizard trigger),Friday; Apr 10 2015 08:44:23
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #565 Fixed bug where initial wizard toggle would not match menu prompt.,Friday; Apr 10 2015 08:41:29
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #622 Added Warning Timeline in ICM; Renamed "Timeline" to "Exception Timeline",Wednesday; Apr 08 2015 15:52:09
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #624 Corrected requirement timeline svgs for ie,Wednesday; Apr 08 2015 15:40:01
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Cleanup of Services to Service Areas,Tuesday; Apr 07 2015 08:05:37
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Custom Service Implementations to Their Areas,Tuesday; Apr 07 2015 07:58:39
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Added Service Area Folders for Custom and Dto,Tuesday; Apr 07 2015 07:43:18
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Extended Service Implementations to Their Areas,Tuesday; Apr 07 2015 07:35:44
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Domain Helpers to their Areas,Tuesday; Apr 07 2015 07:24:25
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Domain Extended F-Z to Domain Areas,Tuesday; Apr 07 2015 07:14:43
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved A-E extended in to domain areas,Tuesday; Apr 07 2015 07:09:13
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Search Criteria To Areas A-P,Thursday; Apr 02 2015 14:57:06
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 removed duplicated property checks in search criteria r - v,Thursday; Apr 02 2015 14:51:25
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 Moved initial batch of search criteria to new structure,Thursday; Apr 02 2015 14:09:17
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 Added updated domain structure for search criteria,Thursday; Apr 02 2015 14:03:17
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Merged Search Criteria From Generated And Extended,Thursday; Apr 02 2015 13:47:59
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 final move from core display view models,Thursday; Apr 02 2015 13:36:31
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 moved process instance and movement display view models from core,Thursday; Apr 02 2015 11:56:42
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 resolved merge,Thursday; Apr 02 2015 11:10:52
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 moved various document display models from core,Thursday; Apr 02 2015 11:08:15
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 moved export entry displasy view models from core to export entries,Thursday; Apr 02 2015 10:43:44
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Removed Generated Module ViewModels,Thursday; Apr 02 2015 10:33:54
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 removed mappnig reference,Thursday; Apr 02 2015 10:32:20
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 moved process instance and movement type display models,Thursday; Apr 02 2015 10:21:01
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Removed static inserts that were breaking the build,Thursday; Apr 02 2015 10:16:25
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 Corrected merge with tax state removal,Thursday; Apr 02 2015 10:05:17
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 moved display view models in core out of generated,Thursday; Apr 02 2015 10:03:23
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Merged ProcessInstanceValidationExceptionsController,Thursday; Apr 02 2015 10:00:06
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 final set of moved input view models from core,Thursday; Apr 02 2015 09:12:25
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Removed Tax States and Statuses,Thursday; Apr 02 2015 08:44:07
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 Updated entity maps to remove levy rate status input mapping,Thursday; Apr 02 2015 08:41:27
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Movements Module Controller Merging Cont.,Thursday; Apr 02 2015 08:22:19
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 merged generated files,Thursday; Apr 02 2015 08:20:58
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 Moved set of view models  + deleted unused,Thursday; Apr 02 2015 08:19:41
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Removed ModeOfTransportRules,Thursday; Apr 02 2015 08:15:30
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 removed unused capture type dropdown input references,Thursday; Apr 02 2015 07:46:34
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 removed unused views for capture selection on umi; claim and process instance,Thursday; Apr 02 2015 07:40:52
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Merged Movement Module Controllers,Thursday; Apr 02 2015 07:38:21
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 moved set of input models to correct areas,Thursday; Apr 02 2015 07:31:54
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595  Included the Project File Missing From Previous Commit,Thursday; Apr 02 2015 06:51:23
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Documents Module Controller Cleanup,Wednesday; Apr 01 2015 15:17:59
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 moved document and claim input view models,Wednesday; Apr 01 2015 13:52:51
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 Moved document area view models (input),Wednesday; Apr 01 2015 13:45:09
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 merged corrected process input view model + remaining core generated vms,Wednesday; Apr 01 2015 13:34:59
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 moved core view models not requiring merge to out of generatred,Wednesday; Apr 01 2015 13:09:48
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 Added process; supplier; pim accessible and passport inpit models to merge,Wednesday; Apr 01 2015 12:50:38
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 Added merged export entry core view models,Wednesday; Apr 01 2015 12:27:23
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 corrceted import issues on viewmodels,Wednesday; Apr 01 2015 12:19:52
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 final core document view model merge,Wednesday; Apr 01 2015 12:12:55
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 moved doc row field error and input view models,Wednesday; Apr 01 2015 11:54:32
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 Added updated view models from core move + formatting changes,Wednesday; Apr 01 2015 11:49:33
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 Moved generated viewmodels into non-generated folder for core + merged where applicable,Wednesday; Apr 01 2015 11:47:03
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 Corrected usings in core controllers + updated formatting,Wednesday; Apr 01 2015 10:35:33
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 merge conflict correction,Wednesday; Apr 01 2015 10:14:12
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 moved fiel zones,Wednesday; Apr 01 2015 10:11:15
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Core Controllers Cleanup Cont.,Wednesday; Apr 01 2015 10:08:13
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 corrceting proj file conflicts,Wednesday; Apr 01 2015 09:03:41
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Added project file missing in previous commit,Wednesday; Apr 01 2015 08:57:14
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 country; consignee; company and type controller updates. domain term refactor. corrected proj file for admin portal,Wednesday; Apr 01 2015 08:55:49
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Merging Controllers in Core Cont.,Wednesday; Apr 01 2015 08:49:32
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595  Core Cleanup and Garbage Collection Cont.,Wednesday; Apr 01 2015 07:42:07
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 More Core Controller Cleanup,Tuesday; Mar 31 2015 15:36:27
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Fixed Claim Submission Status View and Controller,Tuesday; Mar 31 2015 14:20:40
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 corrected db pre deploy script,Tuesday; Mar 31 2015 14:03:07
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 fixed merge issues,Tuesday; Mar 31 2015 13:52:13
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Fix Of My Previous Commit,Tuesday; Mar 31 2015 13:19:16
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Consolidated Some Core Controllers,Tuesday; Mar 31 2015 13:02:18
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 Remove unused audit view + moved attribute and attribute type controllers,Tuesday; Mar 31 2015 12:48:30
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 refactored controllers vs generated for admin base; attribute; attribute types and audit controllers,Tuesday; Mar 31 2015 11:26:47
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #595 Removed unused references + fixed formatting account controller,Tuesday; Mar 31 2015 11:15:59
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Merged Generated export Entry Controllers,Tuesday; Mar 31 2015 11:09:30
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Generated Export Entry Type Controllers,Tuesday; Mar 31 2015 10:50:23
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Removed Generated Claims Controllers,Tuesday; Mar 31 2015 10:47:55
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Added Web.Config to the Export Entries Module,Tuesday; Mar 31 2015 09:28:24
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to Movements Module 9,Tuesday; Mar 31 2015 07:26:50
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to Movements Module 8,Tuesday; Mar 31 2015 07:25:45
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to Movements Module 7,Tuesday; Mar 31 2015 07:24:44
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to Movements Module 6,Tuesday; Mar 31 2015 07:24:04
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to Movements Module 5,Tuesday; Mar 31 2015 07:22:12
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to Movements Module 4,Tuesday; Mar 31 2015 07:21:37
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to Movements Module 3,Tuesday; Mar 31 2015 07:20:23
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to Movements Module 2,Tuesday; Mar 31 2015 07:19:03
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to Movements Module 1,Tuesday; Mar 31 2015 07:17:50
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to ExportEntries Module 3,Tuesday; Mar 31 2015 07:16:33
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to ExportEntries Module 2,Tuesday; Mar 31 2015 07:15:34
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to ExportEntries Module 1,Tuesday; Mar 31 2015 07:14:44
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to Docs Module 6,Tuesday; Mar 31 2015 07:08:45
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to Docs Module 5,Tuesday; Mar 31 2015 07:08:06
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to Docs Module 4,Tuesday; Mar 31 2015 07:06:57
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to Docs Module 3,Tuesday; Mar 31 2015 07:06:05
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views to Docs Module 2,Tuesday; Mar 31 2015 07:04:02
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Views To Docs Module 1,Tuesday; Mar 31 2015 07:02:34
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #595 Moved Controllers to their correct Modules,Monday; Mar 30 2015 14:46:03
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #587 added updated staging database deployment to allow for teamcity to connect (password as part of .xml),Tuesday; Mar 31 2015 10:19:27
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #587 Updated staging report references in rdl deployment scripts,Monday; Mar 30 2015 14:26:44
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #598 re #599 Corrceted styling issues on list pages + tables and action buttons. Split out icm in separate bundle,Tuesday; Mar 31 2015 09:31:26
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #541 moved style block of edit process to .less file .removed various in line styles. Added partial views for repeated elements. Some styles remain inline take take effect over generated bootstrap items,Monday; Mar 30 2015 11:13:18
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #577 Removed Close To Claim and Documents List Report from Desmat,Monday; Mar 30 2015 09:44:22
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #578  Removed Process Statuses Tab From Movements,Monday; Mar 30 2015 08:44:14
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #583 Finished Navbar Reorganization,Friday; Mar 27 2015 13:17:24
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #586 Allowed process selection when creating a claim,Thursday; Mar 26 2015 13:38:24
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #586 Force Process Categories on Process Instance Creation,Thursday; Mar 26 2015 11:52:01
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #526 updated non-qa configs + improved outputs of rss files. Fixed navbar display bug,Thursday; Mar 26 2015 12:30:03
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #526 updated sql version dir refrerence,Thursday; Mar 26 2015 12:04:44
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #526 updated qa publish for reports to point at correct folder and db,Thursday; Mar 26 2015 11:56:24
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #526 removed management 2010 rs.exe ref to log,Thursday; Mar 26 2015 11:29:09
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #526 Removed log file reference for some outputs on qa report deployments,Thursday; Mar 26 2015 11:15:47
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #526 Added report data files,Thursday; Mar 26 2015 09:47:55
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #526 updated customs report ; removing reference to trn.transactions from missing data sub report,Thursday; Mar 26 2015 09:21:32
+David Hunter <david.hunter@entelect.co.za>,David Hunter <david.hunter@entelect.co.za>,re #584 Modified Sub-Process Linking to Filter on Parent Processes,Thursday; Mar 26 2015 10:41:54
+Darren Young <darren.young@entelect.co.za>,Darren Young <darren.young@entelect.co.za>,re #500 Added validation on uniqueness of mov primary reference number;,Wednesday; Feb 18 2015 10:40:44
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#263 and #264 added ability to assign user account and password to run the service under,Thursday; Jan 23 2014 16:34:13
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#205: fixed broken build,Tuesday; Dec 10 2013 14:03:20
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#205: Using the history table instead of the actual table.,Tuesday; Dec 10 2013 14:02:10
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#185 & #196: Added confirmation to the transporter screens as well as the select2 dropdown on transporter screen.,Friday; Dec 06 2013 19:33:52
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#185: Changed lookup value from TransporterCode to TransporterCodeId,Friday; Dec 06 2013 15:24:53
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#185: Transporter fields are not autocomplete,Friday; Dec 06 2013 14:31:48
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#195: Entry status text is now visible on the summary list for history.,Friday; Dec 06 2013 13:03:36
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#198: Frame border removed from the CCL screen,Friday; Dec 06 2013 12:37:40
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#186: Ability to select an 'Unknown' Transporter from the List,Friday; Dec 06 2013 11:29:05
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#188 & #189: Added update script for the locations that are only going to be active for the first phase.,Friday; Dec 06 2013 10:26:14
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#188 & #189: Updated the static data with relevant information provided by mark,Friday; Dec 06 2013 10:24:23
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#175: added missing stored proc file,Thursday; Dec 05 2013 19:48:47
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#175: Entry Clerk can now see the Framed Entries vs SARS responses widget,Thursday; Dec 05 2013 19:48:02
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#177:Added Incomplete entries to the filter criteria,Thursday; Dec 05 2013 11:56:42
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#177: Entry clerk can now see the Entries Pending or requiring a Response widget on the dashboard.,Wednesday; Dec 04 2013 18:22:37
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#176: Updated search filter to include Incomplete entries,Thursday; Dec 05 2013 11:52:55
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#176: Entry clerk can now see the Released Entries Requiring action widget,Wednesday; Dec 04 2013 17:08:58
+Michael Stichling <michael@entelect.co.za>,Michael Stichling <michael@entelect.co.za>,#174: Entry Clerk can now see the Frame new Entry widget,Wednesday; Dec 04 2013 15:49:49
+Malcolm <malcolm@entelect.co.za>,Malcolm <malcolm@entelect.co.za>,#170 As a Transporter; when viewing an Entry that has been accepted; i should see a button to upload the CN1 an CN2 (condensed,Wednesday; Dec 04 2013 15:45:35
+Adrian Floor <adrian.floor@entelect.co.za>,Adrian Floor <adrian.floor@entelect.co.za>,re #119: Added process versioning,Tuesday; Oct 22 2013 16:07:25
+Adrian Floor <adrian.floor@entelect.co.za>,Adrian Floor <adrian.floor@entelect.co.za>,re #118: Added ProcessStatus to processes. Added tables; updated crud.,Wednesday; Oct 16 2013 12:22:22
+Adrian Floor <adrian.floor@entelect.co.za>,Adrian Floor <adrian.floor@entelect.co.za>,re #123: Completed modal for deleting/adding comments to a process,Wednesday; Oct 16 2013 11:04:48
+Adrian Floor <adrian.floor@entelect.co.za>,Adrian Floor <adrian.floor@entelect.co.za>,re #123: Added modal for adding comments to a process,Wednesday; Oct 16 2013 09:44:49
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#105 - Feature: as a user; when accepting a document; previously accepted similar documents should move to a pending state allowing user to Decline/Accept document again,Tuesday; Oct 08 2013 13:10:28
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#108: Feature: As the system; I should enforce that user names are unique,Tuesday; Oct 08 2013 11:48:13
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#75 - set MinMovementMonthsRequiringDocumentUpload value to 0 in GlobalSettings.xml #79 - fixed non-required datetime bug in UMI metadata & in document field values which had same issue,Thursday; Sep 05 2013 11:03:09
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#81 - Updated document approval email template Reset GlobalSettings.xml to use localhost as default in DEV environment,Wednesday; Sep 04 2013 15:27:07
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#10644. Levy Rates->Edit: Unable to change the Effective Date from for new Levy Rates - added additional event handler to update setDateTime,Tuesday; Apr 23 2013 10:43:42
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#10645. Levy Rates Filters Not working; filtering for known categories not returning any results eg filtering for levy rates which are Pending Approval not returning any results -fixed levies filter always submitting 0.00 as search criteria -fixed filter to allow up to 4 decimal places before rounding -adjusted levy rates to display to 4 decimals before rounding,Tuesday; Apr 23 2013 09:37:14
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#10643. Movements FilterLive: Search Filter not working for the Puma Order Number filtr option on Movements,Tuesday; Apr 23 2013 07:39:35
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#10257. Reports: Ensure that the date formats for reports are dd/mm/yyyy. The Report header for all Desmat Reports has the wrong format displayed,Tuesday; Mar 12 2013 09:48:19
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#10259. Reports: Ensure that Users are aware of the fact that they can drill-down the PAP Weekly Summary report by clicking on the Summary Statuses see suggestion below,Monday; Mar 11 2013 15:19:47
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#10260. Reports: PAP Supplier Outstanding Summary -> Users must have the ability to filter the report by supplier by product type,Monday; Mar 11 2013 15:11:38
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#10214. Modified reports with Data Monitor Warnings to filter SARS-only claims Committing stored procedures for Data Monitor,Monday; Mar 04 2013 12:47:49
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#10214. Connected OutStandingClaimsPerSupplierDetail to Data Monitor report Added Hide Data Monitor Warning parameter to remove warning from report on toggle formatting changes with other 10214 reports,Monday; Mar 04 2013 12:29:31
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#10214. Connected SarsReconciliationDetails to Data Monitor report,Monday; Mar 04 2013 11:21:46
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#10214. Connected CustomsWorksheet to Data Monitor report,Monday; Mar 04 2013 10:15:41
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#10214. Added DOE/SARS criteria; added claim description criteria,Monday; Mar 04 2013 09:36:47
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#10214. Reports: Add a summary to reports generated where there is incomplete data returned due to missing report inputs. See applicable reports in description,Monday; Mar 04 2013 08:35:30
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#10028. Modify Claim Details to filter by Aging Period #10023. Pap Summarised Report: Rename Report to PAP Weekly Update Report Changed background color for overdue on Pap Weekly Update Report,Monday; Feb 04 2013 14:32:31
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#9997. DOE Claims: A user should not be able to create duplicate DOE claims,Friday; Feb 01 2013 10:02:21
+malcolm <malcolm@entelect.co.za>,malcolm <malcolm@entelect.co.za>,#10000  A user should not be able to assign any movements to a trade of type Prevoyager.,Thursday; Jan 31 2013 13:36:22
