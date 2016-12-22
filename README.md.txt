@@ -11,11 +11,11 @@ The .htm file has an added link to the assembla ticket
 For different subdivisions of repository the following can be used:
 Choices for OPTION are:
 
-	+	"-displayAll"
-	+	"-displayBetweenTwoDates"
-	+	"-searchPhrase"
-	+	"-displayGroupedTickets"
-	+	"-displayChangesBetweenLastTwoBuilds":
+	+	"-displayAll"								++ Displays all commits of given repository
+	+	"-displayBetweenTwoDates"					++ Displays all commits of given repository that are between two DateTimes
+	+	"-searchPhrase"								++ Displays all commits of given repository whos commit messages contain given phrase
+	+	"-displayGroupedTickets"					++ Displays all commits of given repository that correspond to tickets 
+	+	"-displayChangesBetweenLastTwoBuilds":		++ Displays all changes between two most recent builds 
 
 To run in each commandline the following is required:
 

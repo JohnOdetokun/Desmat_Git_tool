@@ -314,11 +314,9 @@ namespace GitVersionTool
 
         private List<Tag> getVersionTags(List<Tag> rawTagList)
         {
-            //Console.WriteLine("Number of tags: {0}", rawTagList.ToArray().Length);
             List<Tag> versionTagList = new List<Tag>();
             foreach (Tag tag in rawTagList)
             {
-                //Console.WriteLine("tag annotation: {0}", tag.FriendlyName);
                 if (tag.FriendlyName.Contains("version"))
                 {
                     versionTagList.Add(tag);

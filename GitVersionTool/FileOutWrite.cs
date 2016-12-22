@@ -14,7 +14,10 @@ namespace GitVersionTool
         List<RepositoryInformation.CommitFormat> commitList;
         RepositoryInformation repo;
 
-        public FileOutWrite(string fileWriteName, string fileWritePath, List<RepositoryInformation.CommitFormat> commitList, RepositoryInformation repo)
+        public FileOutWrite(string fileWriteName
+            , string fileWritePath
+            , List<RepositoryInformation.CommitFormat> commitList
+            , RepositoryInformation repo)
         {
             this.fileWriteName = fileWriteName;
             this.fileWritePath = fileWritePath;
