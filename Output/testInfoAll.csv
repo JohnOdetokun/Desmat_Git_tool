@@ -1,4 +1,9 @@
 Author, Committer, Message, DateTime
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2627 - Sync database with new stored procedure. Fixes an issue where the aggregate occuring on the integration status code would result in an incorrect status code for a grouping of Rebates Register items.,Thursday; Dec 22 2016 06:05:35
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,Merge branch 'pimp_dev' of git.assembla.com:deloitte-desmat into pimp_dev,Wednesday; Dec 21 2016 17:02:01
+Kevin Downs <kevin.downs@entelect.co.za>,Kevin Downs <kevin.downs@entelect.co.za>,#2627 - Add invalid data to the export for the Rebates Register. Ensure this data is indicated correctly. Inclusion of a legend on the Rebates Register screen to explain how the colors relate to the data being shown.,Wednesday; Dec 21 2016 17:01:43
+Matthew Holmes <matthew.holmes@entelect.co.za>,Matthew Holmes <matthew.holmes@entelect.co.za>,Merge branch 'pimp_qa' of git.assembla.com:deloitte-desmat into pimp_qa,Wednesday; Dec 21 2016 14:11:10
+Matthew Holmes <matthew.holmes@entelect.co.za>,Matthew Holmes <matthew.holmes@entelect.co.za>,Save db project correctly,Wednesday; Dec 21 2016 14:10:37
 Team City <assembla@entelect.co.za>,Team City <assembla@entelect.co.za>,Updating Assembly version,Wednesday; Dec 21 2016 12:57:16
 Matthew Holmes <matthew.holmes@entelect.co.za>,Matthew Holmes <matthew.holmes@entelect.co.za>,Merge branch 'pimp_qa' of git.assembla.com:deloitte-desmat into pimp_qa,Wednesday; Dec 21 2016 12:47:33
 Matthew Holmes <matthew.holmes@entelect.co.za>,Matthew Holmes <matthew.holmes@entelect.co.za>,Allow table value functions; scalar valued functions; stored procs and views to be dropped on QA,Wednesday; Dec 21 2016 12:46:27

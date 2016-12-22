@@ -1,5 +1,15 @@
 Author: Kevin Downs <kevin.downs@entelect.co.za>
 Committer: Kevin Downs <kevin.downs@entelect.co.za>
+Message: #2627 - Sync database with new stored procedure. Fixes an issue where the aggregate occuring on the integration status code would result in an incorrect status code for a grouping of Rebates Register items.
+Date and Time: Thursday, Dec 22 2016 06:05:35
+
+Author: Kevin Downs <kevin.downs@entelect.co.za>
+Committer: Kevin Downs <kevin.downs@entelect.co.za>
+Message: #2627 - Add invalid data to the export for the Rebates Register. Ensure this data is indicated correctly. Inclusion of a legend on the Rebates Register screen to explain how the colors relate to the data being shown.
+Date and Time: Wednesday, Dec 21 2016 17:01:43
+
+Author: Kevin Downs <kevin.downs@entelect.co.za>
+Committer: Kevin Downs <kevin.downs@entelect.co.za>
 Message: #2627 - Add filters to the Rebates Register screen to be able to show malformed data.
 Date and Time: Tuesday, Dec 20 2016 17:41:11
 

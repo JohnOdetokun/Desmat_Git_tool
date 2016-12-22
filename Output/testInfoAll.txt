@@ -1,3 +1,28 @@
+Author: Kevin Downs <kevin.downs@entelect.co.za>
+Committer: Kevin Downs <kevin.downs@entelect.co.za>
+Message: #2627 - Sync database with new stored procedure. Fixes an issue where the aggregate occuring on the integration status code would result in an incorrect status code for a grouping of Rebates Register items.
+Date and Time: Thursday, Dec 22 2016 06:05:35
+
+Author: Kevin Downs <kevin.downs@entelect.co.za>
+Committer: Kevin Downs <kevin.downs@entelect.co.za>
+Message: Merge branch 'pimp_dev' of git.assembla.com:deloitte-desmat into pimp_dev
+Date and Time: Wednesday, Dec 21 2016 17:02:01
+
+Author: Kevin Downs <kevin.downs@entelect.co.za>
+Committer: Kevin Downs <kevin.downs@entelect.co.za>
+Message: #2627 - Add invalid data to the export for the Rebates Register. Ensure this data is indicated correctly. Inclusion of a legend on the Rebates Register screen to explain how the colors relate to the data being shown.
+Date and Time: Wednesday, Dec 21 2016 17:01:43
+
+Author: Matthew Holmes <matthew.holmes@entelect.co.za>
+Committer: Matthew Holmes <matthew.holmes@entelect.co.za>
+Message: Merge branch 'pimp_qa' of git.assembla.com:deloitte-desmat into pimp_qa
+Date and Time: Wednesday, Dec 21 2016 14:11:10
+
+Author: Matthew Holmes <matthew.holmes@entelect.co.za>
+Committer: Matthew Holmes <matthew.holmes@entelect.co.za>
+Message: Save db project correctly
+Date and Time: Wednesday, Dec 21 2016 14:10:37
+
 Author: Team City <assembla@entelect.co.za>
 Committer: Team City <assembla@entelect.co.za>
 Message: Updating Assembly version

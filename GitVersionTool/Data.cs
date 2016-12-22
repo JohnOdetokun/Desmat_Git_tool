@@ -7,127 +7,26 @@ using System.Threading.Tasks;
 
 namespace GitVersionTool
 {
-    public class RepositoryInformation : IDisposable
+    public class Data : GitAccess
     {
-        private bool _disposed;
-        private readonly Repository _repo;
-
-        public static RepositoryInformation GetRepositoryInformationForPath(string path)
+        public Data(string path): base(path)
         {
-            if (LibGit2Sharp.Repository.IsValid(path))
-            {
-                return new RepositoryInformation(path);
-            }
-            return null;
+
         }
 
-        public string CommitHash
+        public struct CommitFormat
         {
-            get
-            {
-                return _repo.Head.Tip.Sha;
-            }
-        }
-
-        public string BranchName
-        {
-            get
-            {
-                return _repo.Head.FriendlyName;
-            }
-        }
-
-        public string TrackedBranchName
-        {
-            get
-            {
-                return _repo.Head.IsTracking ? _repo.Head.TrackedBranch.FriendlyName : String.Empty;
-            }
-        }
-
-        public bool HasUnpushedCommits
-        {
-            get
-            {
-                return _repo.Head.TrackingDetails.AheadBy > 0;
-            }
-        }
-
-        public bool HasUncommittedChanges
-        {
-            get
-            {
-                return _repo.RetrieveStatus().Any(s => s.State != FileStatus.Ignored);
-            }
-        }
-
-        public IEnumerable<Commit> Log
-        {
-            get
-            {
-                return _repo.Head.Commits;
-            }
-        }
-
-        public List<CommitFormat> getCommitList()
-        {
-            List<Commit> rawCommitList = Log.ToList();
-            List<CommitFormat> commitList = new List<CommitFormat>();
-            foreach (Commit commit in rawCommitList)
-            {
-                CommitFormat temp;
-                temp.author = commit.Author.ToString();
-                temp.committer = commit.Committer.ToString();
-                temp.message = commit.MessageShort;
-                temp.dateTimeOffset = commit.Committer.When;
-                commitList.Add(temp);
-            }
-            return commitList;
-        }
-
-        public IEnumerable<Tag> Tags
-        {
-            get
-            {
-                return _repo.Tags;
-            }
-        }
-
-        private static IEnumerable<Tag> AssignedTags(Commit commit, Dictionary<ObjectId, List<Tag>> tags)
-        {
-            if (!tags.ContainsKey(commit.Id))
-            {
-                return Enumerable.Empty<Tag>();
-            }
-            return tags[commit.Id];
-        }
-
-        private static Dictionary<ObjectId, List<Tag>> TagsPerPeeledCommitId(Repository repo)
-        {
-            var tagsPerPeeledCommitId = new Dictionary<ObjectId, List<Tag>>();
-            foreach (Tag tag in repo.Tags)
-            {
-                GitObject peeledTarget = tag.PeeledTarget;
-                if (!(peeledTarget is Commit))
-                {
-                    // We're not interested by Tags pointing at Blobs or Trees
-                    continue;
-                }
-                ObjectId commitId = peeledTarget.Id;
-                if (!tagsPerPeeledCommitId.ContainsKey(commitId))
-                {
-                    // A Commit may be pointed at by more than one Tag
-                    tagsPerPeeledCommitId.Add(commitId, new List<Tag>());
-                }
-                tagsPerPeeledCommitId[commitId].Add(tag);
-            }
-            return tagsPerPeeledCommitId;
-        }
+            public string author;
+            public string committer;
+            public string message;
+            public DateTimeOffset dateTimeOffset;
+        };
 
         public void displayTagCommitLinks()
         {
             // Build up a cached dictionary of all the tags that point to a commit
             var dic = TagsPerPeeledCommitId(_repo);
+
             // Let's enumerate all the reachable commits (similarly to `git log --all`)
             foreach (Commit commit in _repo.Commits)
             {
@@ -258,7 +157,6 @@ namespace GitVersionTool
             return filteredCommitList;
         }
 
-
         public List<CommitFormat> getGroupCommitList(List<CommitFormat> commitList)
         {
             Dictionary<int, List<CommitFormat>> ticketDictionary = getTicketDictionary(commitList);
@@ -293,6 +191,7 @@ namespace GitVersionTool
                 //Console.WriteLine("tag annotation: {0}", tag.FriendlyName);
                 if (tag.FriendlyName.Contains(version))
                 {
+
                     Commit commit = getCommitOfTag(tag);
                     return commit.Committer.When;
                 }
@@ -333,29 +232,5 @@ namespace GitVersionTool
             string minor = (Int32.Parse(majorMinor[1]) - 1).ToString();
             return majorMinor[0] + "." + minor;
         }
-
-        public void Dispose()
-        {
-            if (!_disposed)
-            {
-                _disposed = true;
-                _repo.Dispose();
-            }
-        }
-
-        private RepositoryInformation(string path)
-        {
-            _repo = new Repository(path);
-        }
-
-        public struct CommitFormat
-        {
-            public string author;
-            public string committer;
-            public string message;
-            public DateTimeOffset dateTimeOffset;
-        };
-
-
     }
 }

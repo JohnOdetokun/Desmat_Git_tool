@@ -35,7 +35,6 @@ namespace GitVersionTool
             HTMLwriteCommitFormat(fileWriteName, fileWritePath, commitList, repo);
             Console.WriteLine("Go to \"" + fileWritePath + "\" to view .csv, .txt and .htm files with name: \"" + fileWriteName + "\"\nPRESS ENTER TO EXIT");
             Console.ReadLine();
-
         }
 
         private bool writeCommitFormat(string filename, string fileWritePath, List<RepositoryInformation.CommitFormat> commits)
@@ -87,7 +86,6 @@ namespace GitVersionTool
         }
         private bool HTMLwriteCommitFormat(string fileName, string fileWritePath, List<RepositoryInformation.CommitFormat> commitList, RepositoryInformation repo)
         {
-
             try
             {
                 using (System.IO.StreamWriter file = new System.IO.StreamWriter(fileWritePath + "\\" + fileName + ".htm"))
