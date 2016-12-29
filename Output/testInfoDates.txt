@@ -1,145 +1,148 @@
-Author: Kevin Downs <kevin.downs@entelect.co.za>
-Committer: Kevin Downs <kevin.downs@entelect.co.za>
-Message: Merge branch 'pimp_dev' of git.assembla.com:deloitte-desmat into pimp_dev
-Date and Time: Tuesday, Dec 20 2016 17:41:28
-
-Author: Kevin Downs <kevin.downs@entelect.co.za>
-Committer: Kevin Downs <kevin.downs@entelect.co.za>
-Message: #2627 - Add filters to the Rebates Register screen to be able to show malformed data.
-Date and Time: Tuesday, Dec 20 2016 17:41:11
-
 Author: Team City <assembla@entelect.co.za>
 Committer: Team City <assembla@entelect.co.za>
 Message: Updating Assembly version
-Date and Time: Tuesday, Dec 20 2016 16:24:43
-
-Author: Matthew Holmes <matthew.holmes@entelect.co.za>
-Committer: Matthew Holmes <matthew.holmes@entelect.co.za>
-Message: Delete unused folders and make ICM swimlane have the right width when dynamically adding new swimlanes
-Date and Time: Tuesday, Dec 20 2016 15:54:08
-
+Date and Time: Tuesday, Dec 20 2016 16:13:47
 Author: Team City <assembla@entelect.co.za>
 Committer: Team City <assembla@entelect.co.za>
 Message: Updating Assembly version
-Date and Time: Tuesday, Dec 20 2016 15:53:56
-
-Author: Matthew Holmes <matthew.holmes@entelect.co.za>
-Committer: Matthew Holmes <matthew.holmes@entelect.co.za>
-Message: Remove Entelect t4 scaffolding from all projects
-Date and Time: Tuesday, Dec 20 2016 14:12:12
-
-Author: Matthew Holmes <matthew.holmes@entelect.co.za>
-Committer: Matthew Holmes <matthew.holmes@entelect.co.za>
-Message: Merge branch 'pimp_dev' of git.assembla.com:deloitte-desmat into pimp_dev
-Date and Time: Tuesday, Dec 20 2016 13:42:32
-
+Date and Time: Tuesday, Dec 20 2016 14:22:29
+Author: Team City <assembla@entelect.co.za>
+Committer: Team City <assembla@entelect.co.za>
+Message: Updating Assembly version
+Date and Time: Tuesday, Dec 20 2016 14:17:14
+Author: Team City <assembla@entelect.co.za>
+Committer: Team City <assembla@entelect.co.za>
+Message: Updating Assembly version
+Date and Time: Tuesday, Dec 20 2016 08:48:44
+Author: Team City <assembla@entelect.co.za>
+Committer: Team City <assembla@entelect.co.za>
+Message: Updating Assembly version
+Date and Time: Tuesday, Dec 20 2016 08:41:50
+Author: Team City <assembla@entelect.co.za>
+Committer: Team City <assembla@entelect.co.za>
+Message: Updating Assembly version
+Date and Time: Tuesday, Dec 20 2016 08:31:53
+Author: Team City <assembla@entelect.co.za>
+Committer: Team City <assembla@entelect.co.za>
+Message: Updating Assembly version
+Date and Time: Tuesday, Dec 20 2016 08:22:50
+Author: Team City <assembla@entelect.co.za>
+Committer: Team City <assembla@entelect.co.za>
+Message: Updating Assembly version
+Date and Time: Monday, Dec 19 2016 16:37:53
 Author: John Odetokun <john.odetokun@entelect.co.za>
 Committer: John Odetokun <john.odetokun@entelect.co.za>
-Message: Versioning changes made to layout, and webhelper as well as Push script added
-Date and Time: Tuesday, Dec 20 2016 13:38:04
-
-Author: Matthew Holmes <matthew.holmes@entelect.co.za>
-Committer: Matthew Holmes <matthew.holmes@entelect.co.za>
-Message: Remove t4scaffolding from packages - it causes Visual Studio 2015 to break, and eventually leads to our schema compare in the database breaking
-Date and Time: Tuesday, Dec 20 2016 13:31:18
-
-Author: Bruce De Jager <bruce.dejager@entelect.co.za>
-Committer: Bruce De Jager <bruce.dejager@entelect.co.za>
-Message: Added THE CCVODT and CCVOHD tables into the solution by doing the Schema compare, also did EDMX changes and Transform all T4 Templates
-Date and Time: Tuesday, Dec 20 2016 10:41:34
-
+Message: Changed push command of PushUpdatedVersionToPumaQA
+Date and Time: Monday, Dec 19 2016 16:28:34
+Author: John Odetokun <john.odetokun@entelect.co.za>
+Committer: John Odetokun <john.odetokun@entelect.co.za>
+Message: Changed push command of PushUpdatedVersionToPumaQA
+Date and Time: Monday, Dec 19 2016 16:27:56
+Author: John Odetokun <john.odetokun@entelect.co.za>
+Committer: John Odetokun <john.odetokun@entelect.co.za>
+Message: Changed push command of PushUpdatedVersionToPumaQA
+Date and Time: Monday, Dec 19 2016 16:02:49
+Author: John Odetokun <john.odetokun@entelect.co.za>
+Committer: John Odetokun <john.odetokun@entelect.co.za>
+Message: Changed push command of PushUpdatedVersionToPumaQA
+Date and Time: Monday, Dec 19 2016 15:54:20
+Author: John Odetokun <john.odetokun@entelect.co.za>
+Committer: John Odetokun <john.odetokun@entelect.co.za>
+Message: Changed push command of PushUpdatedVersionToPumaQA
+Date and Time: Monday, Dec 19 2016 15:48:03
+Author: John Odetokun <john.odetokun@entelect.co.za>
+Committer: John Odetokun <john.odetokun@entelect.co.za>
+Message: Changed push command of PushUpdatedVersionToPumaQA
+Date and Time: Monday, Dec 19 2016 15:44:16
+Author: John Odetokun <john.odetokun@entelect.co.za>
+Committer: John Odetokun <john.odetokun@entelect.co.za>
+Message: Updating Assembly version
+Date and Time: Monday, Dec 19 2016 15:20:14
+Author: John Odetokun <john.odetokun@entelect.co.za>
+Committer: John Odetokun <john.odetokun@entelect.co.za>
+Message: Updating Assembly version
+Date and Time: Monday, Dec 19 2016 15:17:54
+Author: John Odetokun <john.odetokun@entelect.co.za>
+Committer: John Odetokun <john.odetokun@entelect.co.za>
+Message: Added assembla to push command in PushUpdateVersionToPumaQa.ps1
+Date and Time: Monday, Dec 19 2016 15:08:46
+Author: John Odetokun <john.odetokun@entelect.co.za>
+Committer: John Odetokun <john.odetokun@entelect.co.za>
+Message: Added assembla to push command in PushUpdateVersionToPumaQa.ps1
+Date and Time: Monday, Dec 19 2016 15:07:35
+Author: John Odetokun <john.odetokun@entelect.co.za>
+Committer: John Odetokun <john.odetokun@entelect.co.za>
+Message: Added line to PushUpdateVersionToPumaQa.ps1 to observe end of push
+Date and Time: Monday, Dec 19 2016 13:01:09
 Author: Kevin Downs <kevin.downs@entelect.co.za>
 Committer: Kevin Downs <kevin.downs@entelect.co.za>
-Message: #2627 - Update database project
-Date and Time: Monday, Dec 19 2016 18:05:05
-
+Message: Attempt to navigate to root of repository before executing git commit and push for updating version numbers
+Date and Time: Thursday, Dec 15 2016 16:43:47
 Author: Kevin Downs <kevin.downs@entelect.co.za>
 Committer: Kevin Downs <kevin.downs@entelect.co.za>
-Message: Merge branch 'pimp_dev' of git.assembla.com:deloitte-desmat into pimp_dev
-Date and Time: Monday, Dec 19 2016 17:50:29
-
-Author: Matthew Holmes <matthew.holmes@entelect.co.za>
-Committer: Matthew Holmes <matthew.holmes@entelect.co.za>
-Message: Fix dbproj
-Date and Time: Monday, Dec 19 2016 17:50:03
-
+Message: List directory contents to check git config
+Date and Time: Thursday, Dec 15 2016 16:35:00
 Author: Kevin Downs <kevin.downs@entelect.co.za>
 Committer: Kevin Downs <kevin.downs@entelect.co.za>
-Message: Merge branch 'pimp_dev' of git.assembla.com:deloitte-desmat into pimp_dev
-Date and Time: Monday, Dec 19 2016 17:48:44
-
+Message: Add debug display strings to version update.
+Date and Time: Thursday, Dec 15 2016 16:30:19
 Author: Kevin Downs <kevin.downs@entelect.co.za>
 Committer: Kevin Downs <kevin.downs@entelect.co.za>
-Message: #2627 - Add filtering to the rebates register screen.
-Date and Time: Monday, Dec 19 2016 17:48:31
-
-Author: Matthew Holmes <matthew.holmes@entelect.co.za>
-Committer: Matthew Holmes <matthew.holmes@entelect.co.za>
-Message: Make database project work with vs 2015
-Date and Time: Monday, Dec 19 2016 17:47:19
-
-Author: Bruce De Jager <bruce.dejager@entelect.co.za>
-Committer: Bruce De Jager <bruce.dejager@entelect.co.za>
-Message: Merge branch 'PermitCustomers' into pimp_dev after PermitCustomers branch was fixed by removing RebatesRegister Merge tool backup files
-Date and Time: Tuesday, Dec 13 2016 12:35:37
-
-Author: Bruce De Jager <bruce.dejager@entelect.co.za>
-Committer: Bruce De Jager <bruce.dejager@entelect.co.za>
-Message: Removed RebatesRegisterController Merge tool backup, Base,Local and Remote files
-Date and Time: Tuesday, Dec 13 2016 12:33:03
-
+Message: Get current directory as working directory.
+Date and Time: Thursday, Dec 15 2016 16:26:13
 Author: Kevin Downs <kevin.downs@entelect.co.za>
 Committer: Kevin Downs <kevin.downs@entelect.co.za>
-Message: Merge branch 'pimp_dev' of git.assembla.com:deloitte-desmat into pimp_dev
-Date and Time: Tuesday, Dec 13 2016 09:16:55
-
+Message: Add in working directory
+Date and Time: Thursday, Dec 15 2016 16:21:20
 Author: Kevin Downs <kevin.downs@entelect.co.za>
 Committer: Kevin Downs <kevin.downs@entelect.co.za>
-Message: Change filters to use new HtmlHelpers. Restyle login and password reset screen.
-Date and Time: Tuesday, Dec 13 2016 09:16:29
-
-Author: Bruce De Jager <bruce.dejager@entelect.co.za>
-Committer: Bruce De Jager <bruce.dejager@entelect.co.za>
-Message: Added NonAction to the various methods in the controller to prevent access to these views and commented out the Html link for Permits Customer on the NavBarTurbomeca
-Date and Time: Monday, Dec 12 2016 14:12:57
-
-Author: Bruce De Jager <bruce.dejager@entelect.co.za>
-Committer: Bruce De Jager <bruce.dejager@entelect.co.za>
-Message: Merged pimp_Dev into PermitCustomers
-Date and Time: Monday, Dec 12 2016 11:54:41
-
-Author: Bruce De Jager <bruce.dejager@entelect.co.za>
-Committer: Bruce De Jager <bruce.dejager@entelect.co.za>
-Message: git pull from pimp_dev
-Date and Time: Monday, Dec 12 2016 10:45:32
-
-Author: Bruce De Jager <bruce.dejager@entelect.co.za>
-Committer: Bruce De Jager <bruce.dejager@entelect.co.za>
-Message: 2604 Fixed UTC issue by converting the data parameters to local time and then adding an extra day to the number of days variable so that the from day is also included in the selected range
-Date and Time: Monday, Dec 12 2016 10:42:18
-
+Message: Add output for git exe
+Date and Time: Thursday, Dec 15 2016 16:15:29
 Author: Kevin Downs <kevin.downs@entelect.co.za>
 Committer: Kevin Downs <kevin.downs@entelect.co.za>
-Message: Merge branch 'pimp_dev' of git.assembla.com:deloitte-desmat into pimp_dev
-Date and Time: Monday, Dec 12 2016 10:00:54
-
+Message: Change version update script to remove working directory
+Date and Time: Thursday, Dec 15 2016 16:04:55
+Author: John Odetokun <john.odetokun@entelect.co.za>
+Committer: John Odetokun <john.odetokun@entelect.co.za>
+Message: Added commit step to script
+Date and Time: Thursday, Dec 15 2016 15:36:57
+Author: John Odetokun <john.odetokun@entelect.co.za>
+Committer: John Odetokun <john.odetokun@entelect.co.za>
+Message: Renamed build script and added description about versions to webHelper
+Date and Time: Thursday, Dec 15 2016 15:31:40
+Author: John Odetokun <john.odetokun@entelect.co.za>
+Committer: John Odetokun <john.odetokun@entelect.co.za>
+Message: Change display format of version number
+Date and Time: Thursday, Dec 15 2016 15:16:46
+Author: John Odetokun <john.odetokun@entelect.co.za>
+Committer: John Odetokun <john.odetokun@entelect.co.za>
+Message: Added script to push version number change
+Date and Time: Thursday, Dec 15 2016 14:06:13
 Author: Kevin Downs <kevin.downs@entelect.co.za>
 Committer: Kevin Downs <kevin.downs@entelect.co.za>
-Message: #2620, #2622 - Change tipTip text. Change background color on all pages.
-Date and Time: Monday, Dec 12 2016 10:00:45
-
-Author: Bruce De Jager <bruce.dejager@entelect.co.za>
-Committer: Bruce De Jager <bruce.dejager@entelect.co.za>
-Message: Made changes to GetPurposeCodesOverTime stored procedure and then did an edmx and then transform T4 Templates
-Date and Time: Friday, Dec 09 2016 14:53:19
-
+Message: Fix build file
+Date and Time: Thursday, Dec 08 2016 19:14:01
 Author: Kevin Downs <kevin.downs@entelect.co.za>
 Committer: Kevin Downs <kevin.downs@entelect.co.za>
-Message: Perform schema compare to include new functions.
-Date and Time: Friday, Dec 09 2016 09:31:33
-
-Author: Bruce De Jager <bruce.dejager@entelect.co.za>
-Committer: Bruce De Jager <bruce.dejager@entelect.co.za>
-Message: Merge branch 'pimp_dev' into PermitCustomers
-Date and Time: Thursday, Dec 08 2016 08:59:58
-
+Message: Attempt to enable parallel builds.
+Date and Time: Thursday, Dec 08 2016 17:17:49
+Author: Kevin Downs <kevin.downs@entelect.co.za>
+Committer: Kevin Downs <kevin.downs@entelect.co.za>
+Message: Remove build views
+Date and Time: Thursday, Dec 08 2016 17:13:42
+Author: Kevin Downs <kevin.downs@entelect.co.za>
+Committer: Kevin Downs <kevin.downs@entelect.co.za>
+Message: Add parameter for parallel builds of the solution.
+Date and Time: Thursday, Dec 08 2016 16:49:47
+Author: Kevin Downs <kevin.downs@entelect.co.za>
+Committer: Kevin Downs <kevin.downs@entelect.co.za>
+Message: Fix datasource on Total Declared Customs Value Report report.
+Date and Time: Thursday, Dec 08 2016 16:43:40
+Author: Kevin Downs <kevin.downs@entelect.co.za>
+Committer: Kevin Downs <kevin.downs@entelect.co.za>
+Message: Delete .rdl.data files. Turn on compile views on CI.
+Date and Time: Thursday, Dec 08 2016 16:32:41
+Author: Kevin Downs <kevin.downs@entelect.co.za>
+Committer: Kevin Downs <kevin.downs@entelect.co.za>
+Message: Add Total Declared Customs Value Report.
+Date and Time: Thursday, Dec 08 2016 16:15:41
