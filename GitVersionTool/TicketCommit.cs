@@ -13,12 +13,19 @@ namespace GitVersionTool
         public TicketCommit(string MessageShort)
         {
             var ticketArray = Regex.Matches(MessageShort, pattern);
-            ticketNumberList = ticketArray.Cast<Match>().Select(match => int.Parse(match.ToString().Substring(1))).ToList();
+
+            ticketNumberList = ticketArray.Cast<Match>().Select(match => ConvertPatternMatchToTicketNumber(match.ToString())).ToList();
         }
 
         public List<int> GetTicketNumberList()
         {
             return ticketNumberList;
+        }
+
+        private int ConvertPatternMatchToTicketNumber(string patternMatch)
+        {
+            // Pattern format #ddd
+            return int.Parse(patternMatch.Substring(1));
         }
 
     }

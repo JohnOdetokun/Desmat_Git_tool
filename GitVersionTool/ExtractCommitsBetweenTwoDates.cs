@@ -15,9 +15,9 @@ namespace GitVersionTool
         {
             this.repo = repo;
             this.args = args;
-            ValidateArgs();
             rangeBegin = GetDateTime(args[4]);
             rangeEnd = GetDateTime(args[5]);
+            ValidateArgs();
         }
 
         public List<Commit> ExtractCommits()
@@ -45,14 +45,18 @@ namespace GitVersionTool
 
         private DateTime GetDateTime(string dateString)
         {
-            string[] dateinfo = dateString.Split('-');
-            DateTime date = new DateTime(int.Parse(dateinfo[2]), int.Parse(dateinfo[1]), int.Parse(dateinfo[0]));
+            DateTime date;
+            if(!DateTime.TryParse(dateString, out date))
+            {
+                throw new ArgumentNullException("Date format incorrect, please run program again and enter two dates with correct \"dd-mm-yyyy\" fromat.");
+            }
             return date;
         }
 
         public void ValidateArgs()
         {
-            if (!(args[4] != null && args[5] != null))
+
+            if (rangeBegin == null || rangeEnd == null)
             {
                 throw new ArgumentNullException("Date arguments not provided, please run program again and enter two dates with correct \"dd-mm-yyyy\" fromat.");
             }

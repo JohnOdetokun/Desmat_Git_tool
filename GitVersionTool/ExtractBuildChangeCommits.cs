@@ -19,8 +19,8 @@ namespace GitVersionTool
         {
             this.repo = repo;
             this.args = args;
-            ValidateArgs();
             newVersion = args[4];
+            ValidateArgs();
             oldVersion = DecrementVersion(newVersion);
             versionTags = GetVersionTags(repo.Tags.ToList());
             newVersionDate = GetVersionDateTimeOffset(newVersion, versionTags);
@@ -43,7 +43,7 @@ namespace GitVersionTool
 
         public void ValidateArgs()
         {
-            if (args[4] == null)
+            if (newVersion == null)
             {
                 throw new ArgumentNullException("Version argument not provided, please run program again and version number arg.");
             }

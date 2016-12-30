@@ -17,8 +17,8 @@ namespace GitVersionTool
         {
             this.repo = repo;
             this.args = args;
-            ValidateArgs();
             phrase = args[4];
+            ValidateArgs();
         }
 
         public List<Commit> ExtractCommits()
@@ -36,7 +36,7 @@ namespace GitVersionTool
 
         public void ValidateArgs()
         {
-            if (args[4] == null)
+            if (phrase == null)
             {
                 throw new ArgumentNullException("Phrase argument not provided, please run program again and enter phrase with correct fromat.");
             }
