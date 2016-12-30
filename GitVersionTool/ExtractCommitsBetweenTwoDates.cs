@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using LibGit2Sharp;
+using System.Globalization;
 
 namespace GitVersionTool
 {
@@ -46,7 +47,7 @@ namespace GitVersionTool
         private DateTime GetDateTime(string dateString)
         {
             DateTime date;
-            if(!DateTime.TryParse(dateString, out date))
+            if(!DateTime.TryParseExact(dateString, "d-M-yyyy",CultureInfo.CurrentCulture, DateTimeStyles.None, out date))
             {
                 throw new ArgumentNullException("Date format incorrect, please run program again and enter two dates with correct \"dd-mm-yyyy\" fromat.");
             }
