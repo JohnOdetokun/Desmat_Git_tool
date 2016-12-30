@@ -36,3 +36,4 @@ GitVersionTool.exe "C:\Users\john.odetokun\Desktop\Project_Folder\CoreProject\de
 
 =========================================================================================================================================================================================================================================
 
+This project Project can be expanded to Extract different Commit info or write files of different formats
