@@ -1,9 +1,4 @@
-﻿using LibGit2Sharp;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace GitVersionTool
 {
@@ -22,6 +17,7 @@ namespace GitVersionTool
         public CommitLogFilterFactory(string [] args)
         {
             this.args = args;
+
             path = args[0];
             option = args[3];
             ValidateArgs();
